@@ -1,32 +1,3632 @@
 {
   "Iniciante": [
     {
-      "pergunta": "Na estrada de terra, qual técnica ajuda a manter a estabilidade?",
-      "opcoes": ["Ficar em pé nas pedaleiras", "Sentar o mais atrás possível", "Frear forte nas curvas"],
-      "correta": 0,
-      "explicacao": "Ficar em pé baixa o centro de gravidade (através das pedaleiras) e permite que a moto se mova sob você."
+      "id": 1,
+      "categoria": "Segurança",
+      "pergunta": "Qual a regra de ouro do capacete?",
+      "opcoes": [
+        "Usar desafivelado na cidade",
+        "Sempre afivelado e justo",
+        "Pode ser maior que a cabeça"
+      ],
+      "correta": 1,
+      "explicacao": "Capacete solto voa na queda. A cinta jugular deve estar sempre firme para proteger sua cabeça."
     },
     {
-      "pergunta": "O que fazer ao encontrar muita poeira (fofa) à frente?",
-      "opcoes": ["Parar imediatamente", "Manter aceleração constante e guidão firme", "Mudar de faixa bruscamente"],
+      "id": 2,
+      "categoria": "Mecânica",
+      "pergunta": "Onde fica o freio dianteiro na maioria das motos?",
+      "opcoes": [
+        "Manete direito",
+        "Pedal direito",
+        "Manete esquerdo"
+      ],
+      "correta": 0,
+      "explicacao": "Mão direita controla o acelerador e o freio principal (dianteiro). Decore isso para não passar reto!"
+    },
+    {
+      "id": 3,
+      "categoria": "Manutenção",
+      "pergunta": "Pneu 'careca' é perigoso principalmente quando?",
+      "opcoes": [
+        "No asfalto quente",
+        "Em dias de chuva",
+        "Na terra seca"
+      ],
       "correta": 1,
-      "explicacao": "Aceleração constante ajuda a frente da moto a 'flutuar' sobre o terreno irregular."
+      "explicacao": "Sem os sulcos, a água não escoa. Você perde contato com o chão e vira passageiro da moto."
+    },
+    {
+      "id": 4,
+      "categoria": "Pilotagem",
+      "pergunta": "Vai entrar na curva. O que você faz antes?",
+      "opcoes": [
+        "Acelera tudo",
+        "Freia dentro da curva",
+        "Reduz a velocidade"
+      ],
+      "correta": 2,
+      "explicacao": "Entre devagar, saia rápido. Frear bruscamente dentro da curva levanta a moto e te joga para fora."
+    },
+    {
+      "id": 5,
+      "categoria": "Segurança",
+      "pergunta": "O que é o 'Ponto Cego'?",
+      "opcoes": [
+        "Área que o retrovisor não mostra",
+        "Local sem iluminação",
+        "Defeito na viseira"
+      ],
+      "correta": 0,
+      "explicacao": "Se você não vê o rosto do motorista no retrovisor dele, ele não está te vendo. Sai daí!"
+    },
+    {
+      "id": 6,
+      "categoria": "Equipamentos",
+      "pergunta": "Qual calçado é ideal para pilotar?",
+      "opcoes": [
+        "Chinelo de dedo",
+        "Tênis de pano",
+        "Bota ou calçado fechado resistente"
+      ],
+      "correta": 2,
+      "explicacao": "O pé é o primeiro a tocar o chão. Chinelo cai, tênis rasga. Proteja o tornozelo."
+    },
+    {
+      "id": 7,
+      "categoria": "Tecnologia",
+      "pergunta": "Para que serve a luz de freio?",
+      "opcoes": [
+        "Enfeitar a rabeta",
+        "Avisar quem vem atrás",
+        "Iluminar o chão"
+      ],
+      "correta": 1,
+      "explicacao": "Comunicação visual é vida. Ao tocar no freio, a luz acende e evita que te atropelem."
+    },
+    {
+      "id": 8,
+      "categoria": "Segurança",
+      "pergunta": "Começou a chover forte. O que muda?",
+      "opcoes": [
+        "Acelero para chegar logo",
+        "Nada, sou piloto raiz",
+        "Aumenta a distância de frenagem"
+      ],
+      "correta": 2,
+      "explicacao": "Pista molhada = menos atrito. Você vai precisar de muito mais espaço para parar a moto."
+    },
+    {
+      "id": 9,
+      "categoria": "Mecânica",
+      "pergunta": "Se a corrente da moto estiver muito frouxa...",
+      "opcoes": [
+        "Pode cair e travar a roda",
+        "A moto corre mais",
+        "Economiza gasolina"
+      ],
+      "correta": 0,
+      "explicacao": "Corrente solta chicoteia e pode escapar, travando a roda traseira. Tombo na certa."
+    },
+    {
+      "id": 10,
+      "categoria": "Pilotagem",
+      "pergunta": "Onde seus olhos devem focar?",
+      "opcoes": [
+        "No painel da moto",
+        "Na roda dianteira",
+        "Longe, para onde quer ir"
+      ],
+      "correta": 2,
+      "explicacao": "A moto vai para onde você olha. Fixação visual no destino, não no buraco!"
+    },
+    {
+      "id": 11,
+      "categoria": "Segurança",
+      "pergunta": "Cruzamento sem sinalização. De quem é a preferência?",
+      "opcoes": [
+        "De quem vem pela direita",
+        "Da moto, sempre",
+        "Do maior veículo"
+      ],
+      "correta": 0,
+      "explicacao": "Regra básica do CTB. Na dúvida, pare. Preferência não serve de escudo contra para-choque."
+    },
+    {
+      "id": 12,
+      "categoria": "Manutenção",
+      "pergunta": "O nível de óleo do motor deve ser verificado:",
+      "opcoes": [
+        "Com a moto ligada e andando",
+        "Com a moto reta e motor frio/morno",
+        "Deitada no descanso lateral"
+      ],
+      "correta": 1,
+      "explicacao": "Moto nivelada para leitura correta. Sem óleo, o motor funde e trava a roda."
+    },
+    {
+      "id": 13,
+      "categoria": "Equipamentos",
+      "pergunta": "Viseira riscada à noite causa:",
+      "opcoes": [
+        "Estilo vintage",
+        "Ofuscamento pelos faróis",
+        "Melhor visão noturna"
+      ],
+      "correta": 1,
+      "explicacao": "Riscos espalham a luz dos carros contrários, te deixando cego momentaneamente. Troque a viseira!"
+    },
+    {
+      "id": 14,
+      "categoria": "Pilotagem",
+      "pergunta": "Ao passar em um buraco inevitável:",
+      "opcoes": [
+        "Freie tudo em cima dele",
+        "Fique em pé e firme o guidão",
+        "Solte as mãos"
+      ],
+      "correta": 1,
+      "explicacao": "Use as pernas como amortecedor. Se frear dentro, a suspensão trava e a pancada é seca."
+    },
+    {
+      "id": 15,
+      "categoria": "Tecnologia",
+      "pergunta": "O que indica a luz verde 'N' no painel?",
+      "opcoes": [
+        "Nitro ativado",
+        "Neutro (Ponto Morto)",
+        "Necessidade de serviço"
+      ],
+      "correta": 1,
+      "explicacao": "Neutro. O motor está desconectado da roda. Se acelerar, a moto não anda, só faz barulho."
+    },
+    {
+      "id": 16,
+      "categoria": "Segurança",
+      "pergunta": "Sinal verde abriu. O que fazer?",
+      "opcoes": [
+        "Olha para os lados antes de ir",
+        "Arranca com tudo",
+        "Empina a moto"
+      ],
+      "correta": 0,
+      "explicacao": "Sempre tem um apressadinho furando o vermelho no outro lado. Olhe antes de acelerar."
+    },
+    {
+      "id": 17,
+      "categoria": "Mecânica",
+      "pergunta": "Para que serve a embreagem (manete esquerdo)?",
+      "opcoes": [
+        "Acoplar e desacoplar o motor",
+        "Frear a roda traseira",
+        "Acelerar a moto"
+      ],
+      "correta": 0,
+      "explicacao": "Ela conecta a força do motor ao câmbio. Use para trocar marchas e sair suave."
+    },
+    {
+      "id": 18,
+      "categoria": "Manutenção",
+      "pergunta": "Calibragem dos pneus deve ser feita:",
+      "opcoes": [
+        "Uma vez por ano",
+        "Semanalmente, pneus frios",
+        "Só quando estiver murcho"
+      ],
+      "correta": 1,
+      "explicacao": "Pneu murcho deixa a moto instável e gasta mais gasolina. Pneu quente dá leitura falsa."
+    },
+    {
+      "id": 19,
+      "categoria": "Equipamentos",
+      "pergunta": "Luvas são importantes porque:",
+      "opcoes": [
+        "Protegem do frio e da 'ralada'",
+        "Deixam a mão suada",
+        "São bonitas para fotos"
+      ],
+      "correta": 0,
+      "explicacao": "Em queda, o reflexo é pôr a mão no chão. Sem luva, a pele fica no asfalto. O frio também tira a sensibilidade."
+    },
+    {
+      "id": 20,
+      "categoria": "Pilotagem",
+      "pergunta": "Garupa se mexendo muito na curva. O que falar?",
+      "opcoes": [
+        "Acompanhe meu corpo",
+        "Jogue o corpo para o lado contrário",
+        "Fique solto na moto"
+      ],
+      "correta": 0,
+      "explicacao": "O garupa deve ser uma mochila: acompanhar o piloto. Se jogar contra, desestabiliza a moto."
     }
   ],
   "Intermediario": [
     {
-      "pergunta": "Qual o perigo de passar sobre faixas pintadas em dia de chuva?",
-      "opcoes": ["Nenhum perigo", "A tinta fica extremamente escorregadia", "O pneu gasta mais rápido"],
+      "id": 101,
+      "categoria": "Segurança",
+      "pergunta": "Começou a garoar. Qual o momento mais perigoso?",
+      "opcoes": [
+        "Quando para de chover",
+        "Os primeiros minutos",
+        "Depois de 1 hora de chuva"
+      ],
       "correta": 1,
-      "explicacao": "A tinta de sinalização não tem a mesma porosidade do asfalto, tornando-se um 'sabão' quando molhada."
+      "explicacao": "No início, a água se mistura com óleo e sujeira do asfalto, criando um sabão. Cuidado redobrado!"
+    },
+    {
+      "id": 102,
+      "categoria": "Pilotagem",
+      "pergunta": "O que é o 'Contra-Esterço'?",
+      "opcoes": [
+        "Virar o guidão para onde quer ir",
+        "Empurrar guidão p/ esquerda p/ ir p/ esquerda",
+        "Frear com a roda de trás"
+      ],
+      "correta": 1,
+      "explicacao": "Física pura. Acima de 40km/h, empurre o guidão esquerdo para a moto tombar para a esquerda."
+    },
+    {
+      "id": 103,
+      "categoria": "Segurança",
+      "pergunta": "Ao andar no 'corredor' (inter-faixas), a regra de ouro é:",
+      "opcoes": [
+        "Velocidade compatível com os carros",
+        "Buzinar sem parar",
+        "Correr o máximo possível"
+      ],
+      "correta": 0,
+      "explicacao": "O diferencial de velocidade deve ser baixo. Se os carros param, você quase para. Antecipe a fechada."
+    },
+    {
+      "id": 104,
+      "categoria": "Manutenção",
+      "pergunta": "O que é TWI no pneu?",
+      "opcoes": [
+        "Marca do fabricante",
+        "Indicador de desgaste máximo",
+        "Tipo de borracha"
+      ],
+      "correta": 1,
+      "explicacao": "Tread Wear Indicator. Se a borracha chegou no calombo do TWI, é multa e risco de vida. Troque."
+    },
+    {
+      "id": 105,
+      "categoria": "Tecnologia",
+      "pergunta": "O freio ABS serve para:",
+      "opcoes": [
+        "Frear em menor distância sempre",
+        "Evitar o travamento das rodas",
+        "Aumentar a potência do motor"
+      ],
+      "correta": 1,
+      "explicacao": "Anti-lock Braking System. Ele solta e prende o freio mil vezes para a roda não travar e você não cair."
+    },
+    {
+      "id": 106,
+      "categoria": "Mecânica",
+      "pergunta": "Sintoma de pastilha de freio gasta:",
+      "opcoes": [
+        "Barulho de 'ferro com ferro'",
+        "Moto acelera mais rápido",
+        "Luz do pisca queimada"
+      ],
+      "correta": 0,
+      "explicacao": "Ouviu um chiado metálico ao frear? A pastilha acabou e está comendo o disco. Prejuízo à vista."
+    },
+    {
+      "id": 107,
+      "categoria": "Pilotagem",
+      "pergunta": "Vento lateral forte na rodovia. O que fazer?",
+      "opcoes": [
+        "Ficar rígido na moto",
+        "Relaxar braços e compensar com corpo",
+        "Acelerar ao máximo"
+      ],
+      "correta": 1,
+      "explicacao": "Se ficar duro, você vira uma vela. Relaxe e incline levemente contra o vento para manter a linha."
+    },
+    {
+      "id": 108,
+      "categoria": "Segurança",
+      "pergunta": "Qual a distância segura de seguimento a 80km/h?",
+      "opcoes": [
+        "Colado na traseira",
+        "1 segundo",
+        "Mínimo 2 a 3 segundos"
+      ],
+      "correta": 2,
+      "explicacao": "Regra dos 2 segundos. Escolha um ponto fixo. Se o carro passar e você passar antes de contar até 2, está perto demais."
+    },
+    {
+      "id": 109,
+      "categoria": "Equipamentos",
+      "pergunta": "Jaqueta de Cordura ou Couro deve ter:",
+      "opcoes": [
+        "Estampa bonita",
+        "Muitos bolsos",
+        "Proteções CE em ombros e cotovelos"
+      ],
+      "correta": 2,
+      "explicacao": "O tecido aguenta a abrasão, mas o impacto quebra ossos. As proteções internas absorvem a pancada."
+    },
+    {
+      "id": 110,
+      "categoria": "Manutenção",
+      "pergunta": "Líquido de arrefecimento baixou. Completo com?",
+      "opcoes": [
+        "Água da torneira",
+        "Água desmineralizada + Aditivo",
+        "Óleo de motor"
+      ],
+      "correta": 1,
+      "explicacao": "Água de torneira tem cloro e sais que corroem o radiador. Use a mistura certa ou produto pronto."
+    },
+    {
+      "id": 111,
+      "categoria": "Segurança",
+      "pergunta": "Para ser visto no trânsito, a melhor posição é:",
+      "opcoes": [
+        "Escondido atrás de caminhões",
+        "No meio da faixa sempre",
+        "Nos espelhos retrovisores dos carros"
+      ],
+      "correta": 2,
+      "explicacao": "Posicione-se onde o retrovisor do motorista reflete seu farol. Se você não vê o espelho, ele não te vê."
+    },
+    {
+      "id": 112,
+      "categoria": "Mecânica",
+      "pergunta": "A moto está 'engasgando'. Pode ser:",
+      "opcoes": [
+        "Combustível adulterado ou filtro sujo",
+        "Pneu murcho",
+        "Lâmpada queimada"
+      ],
+      "correta": 0,
+      "explicacao": "Se a mistura ar/combustível falha, a moto engasga. Filtro de ar sujo ou gasolina ruim são os vilões clássicos."
+    },
+    {
+      "id": 113,
+      "categoria": "Pilotagem",
+      "pergunta": "Numa frenagem de emergência (sem ABS):",
+      "opcoes": [
+        "Aperte o freio dianteiro de uma vez",
+        "Use só o traseiro",
+        "Progressividade: aperte e aumente a força"
+      ],
+      "correta": 2,
+      "explicacao": "O 'soco' no manete trava a roda. Comece a apertar para transferir peso, depois aperte com vontade."
+    },
+    {
+      "id": 114,
+      "categoria": "Tecnologia",
+      "pergunta": "Painel indicou superaquecimento. O que fazer?",
+      "opcoes": [
+        "Parar imediatamente e desligar",
+        "Jogar água fria no motor",
+        "Acelerar para ventilar"
+      ],
+      "correta": 0,
+      "explicacao": "Se continuar, junta do cabeçote queima. Pare. Nunca jogue água fria em motor quente (choque térmico trinca o bloco)."
+    },
+    {
+      "id": 115,
+      "categoria": "Segurança",
+      "pergunta": "Linha de pipa com cerol. Defesa:",
+      "opcoes": [
+        "Abaixar a cabeça",
+        "Antena corta-pipa instalada",
+        "Frear bruscamente"
+      ],
+      "correta": 1,
+      "explicacao": "Cerol é lâmina invisível. A antena é feia, mas salva seu pescoço (literalmente). Item obrigatório para profissionais."
+    },
+    {
+      "id": 116,
+      "categoria": "Pilotagem",
+      "pergunta": "Curva fechada em 'U' (cotovelo). Técnica:",
+      "opcoes": [
+        "Olhar para o chão",
+        "Girar a cabeça e olhar a saída",
+        "Manter embreagem solta"
+      ],
+      "correta": 1,
+      "explicacao": "Gire o pescoço! Olhe para trás/saída da curva. O corpo e a moto seguem sua visão periférica."
+    },
+    {
+      "id": 117,
+      "categoria": "Mecânica",
+      "pergunta": "Velas de ignição desgastadas causam:",
+      "opcoes": [
+        "Melhor consumo",
+        "Dificuldade na partida e falhas",
+        "Freio baixo"
+      ],
+      "correta": 1,
+      "explicacao": "Sem faísca boa, não tem explosão. A moto demora para pegar e gasta mais combustível."
+    },
+    {
+      "id": 118,
+      "categoria": "Equipamentos",
+      "pergunta": "Capacete tem validade?",
+      "opcoes": [
+        "Não, dura para sempre",
+        "Sim, verificar recomendação (3 a 5 anos)",
+        "Só se cair no chão"
+      ],
+      "correta": 1,
+      "explicacao": "O isopor interno (EPS) resseca e perde a capacidade de absorver impacto com o tempo e suor."
+    },
+    {
+      "id": 119,
+      "categoria": "Manutenção",
+      "pergunta": "Cabos de embreagem e acelerador devem ser:",
+      "opcoes": [
+        "Lubrificados periodicamente",
+        "Deixados secos",
+        "Trocados todo mês"
+      ],
+      "correta": 0,
+      "explicacao": "Cabo seco fica duro e pode arrebentar no meio do trânsito. Óleo neles para manter a maciez."
+    },
+    {
+      "id": 120,
+      "categoria": "Segurança",
+      "pergunta": "Veículo longo virando à direita. Você:",
+      "opcoes": [
+        "Ultrapassa pela direita rápido",
+        "Espera atrás dele",
+        "Buzina e vai"
+      ],
+      "correta": 1,
+      "explicacao": "Caminhões abrem para a esquerda antes de virar para a direita. Se você entrar no vácuo, será esmagado."
     }
   ],
   "Avancado": [
     {
-      "pergunta": "O que é o 'Trail Braking' na pilotagem avançada?",
-      "opcoes": ["Frear apenas com o freio traseiro", "Manter o freio dianteiro até o ápice da curva", "Soltar o freio totalmente antes de inclinar"],
+      "id": 201,
+      "categoria": "Física",
+      "pergunta": "O que causa um 'Highside' (Ejeção)?",
+      "opcoes": [
+        "Roda dianteira escorrega",
+        "Travar o freio dianteiro",
+        "Roda traseira perde e retoma aderência violenta"
+      ],
+      "correta": 2,
+      "explicacao": "O pneu traseiro desliza, a moto sai de lado, e quando o pneu agarra de novo, a suspensão ejeta o piloto como catapulta."
+    },
+    {
+      "id": 202,
+      "categoria": "Pilotagem",
+      "pergunta": "O que é 'Trail Braking'?",
+      "opcoes": [
+        "Frear na terra",
+        "Manter o freio acionado até o ápice da curva",
+        "Frear só com o traseiro"
+      ],
       "correta": 1,
-      "explicacao": "Técnica usada para carregar peso na frente da moto, melhorando a geometria e a aderência ao entrar na curva."
+      "explicacao": "Técnica avançada: você entra na curva freando para comprimir a suspensão dianteira e aumentar a aderência (grip) na frente."
+    },
+    {
+      "id": 203,
+      "categoria": "Mecânica",
+      "pergunta": "O que é 'Shimmy'?",
+      "opcoes": [
+        "Oscilação violenta do guidão",
+        "Tipo de escapamento",
+        "Falha na injeção"
+      ],
+      "correta": 0,
+      "explicacao": "O guidão começa a bater de batente a batente. Alivie a força nas mãos, não brigue com a moto, e desacelere suave."
+    },
+    {
+      "id": 204,
+      "categoria": "Tecnologia",
+      "pergunta": "Como funciona o 'Cornering ABS'?",
+      "opcoes": [
+        "Igual ABS normal",
+        "Usa IMU para modular freio conforme inclinação",
+        "Não deixa frear na curva"
+      ],
+      "correta": 1,
+      "explicacao": "A central lê que a moto está inclinada e reduz a pressão do freio para não perder a aderência lateral."
+    },
+    {
+      "id": 205,
+      "categoria": "Física",
+      "pergunta": "Efeito Giroscópico nas rodas:",
+      "opcoes": [
+        "Não existe em motos",
+        "Dá estabilidade em alta velocidade",
+        "Faz a moto cair parada"
+      ],
+      "correta": 1,
+      "explicacao": "Quanto mais rápido a roda gira, mais ela quer ficar em pé e reta. Por isso é difícil fazer curvas rápidas sem contra-esterço."
+    },
+    {
+      "id": 206,
+      "categoria": "Manutenção",
+      "pergunta": "Fluido de freio DOT 5.1 vs DOT 4:",
+      "opcoes": [
+        "5.1 tem ponto de ebulição mais alto",
+        "4 é melhor para corrida",
+        "São iguais, só muda a cor"
+      ],
+      "correta": 0,
+      "explicacao": "Em uso extremo (serra ou pista), o freio esquenta. Se o fluido ferver, você fica sem freio (fading). O 5.1 aguenta mais calor."
+    },
+    {
+      "id": 207,
+      "categoria": "Pilotagem",
+      "pergunta": "Qual a trajetória ideal de segurança em curva cega?",
+      "opcoes": [
+        "Tangência antecipada (Early Apex)",
+        "Tangência tardia (Late Apex)",
+        "Pelo meio da pista"
+      ],
+      "correta": 1,
+      "explicacao": "Atrase a entrada. Isso te permite ver a saída da curva mais cedo e evitar obstáculos ou curvas que 'fecham'."
+    },
+    {
+      "id": 208,
+      "categoria": "Mecânica",
+      "pergunta": "O que faz o 'Quickshifter'?",
+      "opcoes": [
+        "Troca marcha sem usar embreagem/aliviar mão",
+        "Aumenta a cilindrada",
+        "Freia a moto sozinho"
+      ],
+      "correta": 0,
+      "explicacao": "Corta a ignição por milissegundos para a marcha entrar sem tranco, mantendo a aceleração contínua."
+    },
+    {
+      "id": 209,
+      "categoria": "Segurança",
+      "pergunta": "O que é 'Target Fixation' (Fixação de Alvo)?",
+      "opcoes": [
+        "Olhar fixamente para o perigo e bater nele",
+        "Mirar na saída da curva",
+        "Focar no conta-giros"
+      ],
+      "correta": 0,
+      "explicacao": "Fenômeno psicológico. Em pânico, você olha para o poste e seu cérebro guia a moto direto para o poste. Olhe para a rota de fuga!"
+    },
+    {
+      "id": 210,
+      "categoria": "Mecânica",
+      "pergunta": "Suspensão: O que regula a 'Pré-Carga' (Preload)?",
+      "opcoes": [
+        "A dureza do amortecedor",
+        "A velocidade de retorno",
+        "O nível (Sag) da moto conforme o peso"
+      ],
+      "correta": 2,
+      "explicacao": "Ajusta a mola para o peso do piloto/garupa. Garante que a suspensão trabalhe no curso correto sem dar fim de curso."
+    },
+    {
+      "id": 211,
+      "categoria": "Pilotagem",
+      "pergunta": "Pêndulo (Body Positioning) serve para:",
+      "opcoes": [
+        "Raspar o joelho e tirar onda",
+        "Manter a moto menos inclinada na curva",
+        "Descansar as costas"
+      ],
+      "correta": 1,
+      "explicacao": "Ao jogar o corpo para dentro, você altera o centro de gravidade. A moto faz a curva mais rápida com menos inclinação (mais pneu no chão)."
+    },
+    {
+      "id": 212,
+      "categoria": "Física",
+      "pergunta": "Aquaplanagem: O pneu perde contato. Ação:",
+      "opcoes": [
+        "Frear forte",
+        "Virar o guidão",
+        "Mão firme, não frear, desacelerar sutilmente"
+      ],
+      "correta": 2,
+      "explicacao": "Qualquer comando brusco (freio ou guidão) derruba a moto. Espere o pneu cortar a água e retomar contato."
+    },
+    {
+      "id": 213,
+      "categoria": "Tecnologia",
+      "pergunta": "Controle de Tração (TCS) atua quando:",
+      "opcoes": [
+        "A roda traseira gira mais rápido que a dianteira",
+        "A moto está parada",
+        "O freio aquece"
+      ],
+      "correta": 0,
+      "explicacao": "Se a traseira destraciona (gira em falso), o sensor percebe a diferença de velocidade e corta motor para retomar grip."
+    },
+    {
+      "id": 214,
+      "categoria": "Manutenção",
+      "pergunta": "Válvulas do motor 'presas' (sem folga) causam:",
+      "opcoes": [
+        "Barulho alto de tec-tec",
+        "Perda de compressão e superaquecimento",
+        "Melhora no desempenho"
+      ],
+      "correta": 1,
+      "explicacao": "Se não vedam direito, o fogo da explosão escapa, queima a sede da válvula e a moto perde força (e morre quente)."
+    },
+    {
+      "id": 215,
+      "categoria": "Pilotagem",
+      "pergunta": "Uso do freio traseiro em curvas (baixa velocidade):",
+      "opcoes": [
+        "Proibido",
+        "Ajuda a estabilizar e fechar a trajetória",
+        "Faz a moto cair"
+      ],
+      "correta": 1,
+      "explicacao": "O freio traseiro 'ancora' a moto, estica o chassi e ajuda em manobras finas ou curvas fechadas sem transferir peso bruscamente."
+    },
+    {
+      "id": 216,
+      "categoria": "Segurança",
+      "pergunta": "Fading de freio (Borrachudo) acontece por:",
+      "opcoes": [
+        "Frio excessivo",
+        "Superaquecimento do fluido criando bolhas",
+        "Pastilha nova"
+      ],
+      "correta": 1,
+      "explicacao": "O fluido ferveu, virou gás. Gás é compressível. O manete encosta na manopla e a moto não para."
+    },
+    {
+      "id": 217,
+      "categoria": "Equipamentos",
+      "pergunta": "Capacete Tri-Composto é feito de:",
+      "opcoes": [
+        "Plástico, Espuma e Tecido",
+        "Fibra de Vidro, Carbono e Kevlar",
+        "Aço, Ferro e Alumínio"
+      ],
+      "correta": 1,
+      "explicacao": "A elite da segurança. Leve e extremamente resistente a impactos, dissipando a energia melhor que o plástico (ABS)."
+    },
+    {
+      "id": 218,
+      "categoria": "Mecânica",
+      "pergunta": "Relação transmissão (Coroa/Pinhão). Pinhão menor:",
+      "opcoes": [
+        "Mais velocidade final, menos torque",
+        "Mais torque (arrancada), menos final",
+        "Não muda nada"
+      ],
+      "correta": 1,
+      "explicacao": "Encurtar a relação (pinhão menor ou coroa maior) deixa a moto arisca na saída, mas o motor grita em alta velocidade."
+    },
+    {
+      "id": 219,
+      "categoria": "Física",
+      "pergunta": "Transferência de massa na frenagem:",
+      "opcoes": [
+        "Peso vai para trás",
+        "Peso vai para a roda dianteira",
+        "Peso desaparece"
+      ],
+      "correta": 1,
+      "explicacao": "A frente afunda. O pneu dianteiro se esborracha no chão ganhando aderência, enquanto a traseira fica leve e quer derrapar."
+    },
+    {
+      "id": 220,
+      "categoria": "Pilotagem",
+      "pergunta": "Rev-Matching (Punta-tacco) nas reduções:",
+      "opcoes": [
+        "Acelerar em vazio na redução",
+        "Segurar a embreagem",
+        "Desligar a moto"
+      ],
+      "correta": 0,
+      "explicacao": "Aquele 'vrum' ao reduzir marcha. Iguala a rotação do motor com a roda, evitando tranco e travamento da traseira na entrada de curva."
+    }
+  {
+  "Iniciante": [
+    {
+      "id": 21,
+      "categoria": "Mecânica",
+      "pergunta": "O que fazer se a luz da reserva acender?",
+      "opcoes": [
+        "Abastecer o quanto antes",
+        "Acelerar menos para economizar",
+        "Ignorar, dura muito"
+      ],
+      "correta": 0,
+      "explicacao": "Pane seca (ficar sem gasolina) dá multa e te deixa a pé no meio do perigo. Abasteça logo."
+    },
+    {
+      "id": 22,
+      "categoria": "Segurança",
+      "pergunta": "Posso sair com o descanso (pezinho) abaixado?",
+      "opcoes": [
+        "Sim, se for devagar",
+        "Nunca, perigo de tombo",
+        "Só em descidas"
+      ],
+      "correta": 1,
+      "explicacao": "Se você fizer a primeira curva para a esquerda com ele abaixado, ele alavanca a moto e você cai feio."
+    },
+    {
+      "id": 23,
+      "categoria": "Manutenção",
+      "pergunta": "Como limpar a corrente da moto?",
+      "opcoes": [
+        "Com a moto ligada e engatada",
+        "Com desengraxante e moto desligada",
+        "Com água e sabão apenas"
+      ],
+      "correta": 1,
+      "explicacao": "Nunca limpe com a moto engatada girando a roda! O risco de perder um dedo é altíssimo. Gire a roda com a mão."
+    },
+    {
+      "id": 24,
+      "categoria": "Pilotagem",
+      "pergunta": "Qual a melhor forma de segurar o guidão?",
+      "opcoes": [
+        "Braços esticados e travados",
+        "Cotovelos relaxados e firmes",
+        "Uma mão só"
+      ],
+      "correta": 1,
+      "explicacao": "Braços travados transferem as pancadas do asfalto para seu pescoço e dificultam manobras. Relaxe os cotovelos."
+    },
+    {
+      "id": 25,
+      "categoria": "Segurança",
+      "pergunta": "Passar sobre faixas pintadas em dia de chuva:",
+      "opcoes": [
+        "É tranquilo, tem aderência",
+        "Acelere para passar rápido",
+        "Evite ou passe sem inclinar/frear"
+      ],
+      "correta": 2,
+      "explicacao": "A tinta da sinalização vira sabão quando molhada. Se frear ou inclinar em cima, o chão some."
+    },
+    {
+      "id": 26,
+      "categoria": "Tecnologia",
+      "pergunta": "Botão vermelho no punho direito (Kill Switch):",
+      "opcoes": [
+        "Desliga o motor em emergência",
+        "Ejeta o banco",
+        "Acende o farol alto"
+      ],
+      "correta": 0,
+      "explicacao": "É o corta-corrente. Use se o acelerador travar ou se cair e a moto continuar ligada."
+    },
+    {
+      "id": 27,
+      "categoria": "Pilotagem",
+      "pergunta": "Ao parar em uma subida íngreme:",
+      "opcoes": [
+        "Use só o freio dianteiro",
+        "Pé direito no freio traseiro",
+        "Segure a moto com os pés no chão"
+      ],
+      "correta": 1,
+      "explicacao": "Usar o freio traseiro libera sua mão direita para controlar o acelerador na hora de arrancar sem a moto voltar."
+    },
+    {
+      "id": 28,
+      "categoria": "Equipamentos",
+      "pergunta": "Viseira aberta em movimento pode?",
+      "opcoes": [
+        "Sim, para ventilar",
+        "Não, risco de insetos/pedras",
+        "Só de óculos escuros comuns"
+      ],
+      "correta": 1,
+      "explicacao": "Uma abelha ou pedrinha no olho a 60km/h pode te cegar e causar um acidente. Feche a viseira."
+    },
+    {
+      "id": 29,
+      "categoria": "Segurança",
+      "pergunta": "Buzina serve para:",
+      "opcoes": [
+        "Alertar sobre sua presença",
+        "Cumprimentar amigos",
+        "Pedir passagem na brabeza"
+      ],
+      "correta": 0,
+      "explicacao": "Use toques curtos para avisar 'estou aqui' quando achar que não foi visto. Não use para brigar."
+    },
+    {
+      "id": 30,
+      "categoria": "Mecânica",
+      "pergunta": "O que é o escapamento?",
+      "opcoes": [
+        "Saída de gases quentes",
+        "Entrada de ar",
+        "Resfriador do motor"
+      ],
+      "correta": 0,
+      "explicacao": "Cuidado! O escapamento fica extremamente quente e causa queimaduras graves na perna, principalmente do garupa."
+    },
+    {
+      "id": 31,
+      "categoria": "Pilotagem",
+      "pergunta": "Trilho de trem ou desnível longitudinal. Como passar?",
+      "opcoes": [
+        "O mais perpendicular (de frente) possível",
+        "De lado, acompanhando o trilho",
+        "Freando forte"
+      ],
+      "correta": 0,
+      "explicacao": "Se entrar paralelo, a roda escorrega e entra no trilho. Ataque o obstáculo fazendo um ângulo de 90 graus."
+    },
+    {
+      "id": 32,
+      "categoria": "Manutenção",
+      "pergunta": "Luz do farol queimou durante o dia:",
+      "opcoes": [
+        "Tudo bem, está claro",
+        "Troque urgente, é lei e segurança",
+        "Use o pisca alerta"
+      ],
+      "correta": 1,
+      "explicacao": "Moto tem que andar de farol aceso dia e noite. Sem ele, você fica invisível e leva multa."
+    },
+    {
+      "id": 33,
+      "categoria": "Segurança",
+      "pergunta": "Areia ou óleo na curva. O que fazer?",
+      "opcoes": [
+        "Levante a moto e freie reto se der",
+        "Incline mais para passar rápido",
+        "Feche os olhos"
+      ],
+      "correta": 0,
+      "explicacao": "Não incline no sujo. Tente deixar a moto em pé, reduza a velocidade sem travar rodas e passe reto pelo perigo."
+    },
+    {
+      "id": 34,
+      "categoria": "Tecnologia",
+      "pergunta": "Painel piscando luz de bateria:",
+      "opcoes": [
+        "Bateria carregada",
+        "Problema no sistema de carga",
+        "Modo econômico"
+      ],
+      "correta": 1,
+      "explicacao": "Sua moto pode apagar a qualquer momento. O alternador/estator pode não estar carregando a bateria."
+    },
+    {
+      "id": 35,
+      "categoria": "Equipamentos",
+      "pergunta": "Capa de chuva deve ser usada:",
+      "opcoes": [
+        "Por baixo da jaqueta",
+        "Por cima de tudo e justa",
+        "Larga para ventilar"
+      ],
+      "correta": 1,
+      "explicacao": "Se ficar balançando muito (larga), rasga com o vento. Use por cima da proteção para não se molhar."
+    },
+    {
+      "id": 36,
+      "categoria": "Pilotagem",
+      "pergunta": "Como estacionar na descida?",
+      "opcoes": [
+        "De frente para a descida",
+        "De ré, pneu traseiro encostado na guia",
+        "De qualquer jeito"
+      ],
+      "correta": 1,
+      "explicacao": "Se estacionar de frente, o pezinho pode fechar sozinho e a moto cai. Encoste a roda traseira na calçada."
+    },
+    {
+      "id": 37,
+      "categoria": "Segurança",
+      "pergunta": "Passageiro sem capacete:",
+      "opcoes": [
+        "Multa gravíssima e suspensão da CNH",
+        "Permitido em trajetos curtos",
+        "Apenas multa leve"
+      ],
+      "correta": 0,
+      "explicacao": "É uma das infrações mandatárias. Perde a carteira na hora. Não dê carona sem o equipamento correto."
+    },
+    {
+      "id": 38,
+      "categoria": "Mecânica",
+      "pergunta": "Pneu novo vem com cera. Cuidado:",
+      "opcoes": [
+        "Ele gruda muito no início",
+        "Escorrega nos primeiros km",
+        "Não faz diferença"
+      ],
+      "correta": 1,
+      "explicacao": "A cera desmoldante deixa o pneu liso. Ande devagar nos primeiros 100km até gastar essa camada."
+    },
+    {
+      "id": 39,
+      "categoria": "Manutenção",
+      "pergunta": "Ajuste dos espelhos retrovisores:",
+      "opcoes": [
+        "Mostrando seus cotovelos",
+        "Mostrando o céu",
+        "Mostrando a pista atrás e pouco do braço"
+      ],
+      "correta": 2,
+      "explicacao": "Você precisa ver o trânsito, não seu braço. Abra o ângulo até ver apenas a pontinha do seu ombro/cotovelo."
+    },
+    {
+      "id": 40,
+      "categoria": "Segurança",
+      "pergunta": "Ao ser ultrapassado por veículo grande:",
+      "opcoes": [
+        "Prepare-se para o deslocamento de ar",
+        "Acelere para não deixar",
+        "Solte o guidão"
+      ],
+      "correta": 0,
+      "explicacao": "O vento que o caminhão/ônibus empurra pode te jogar para o lado. Firme o corpo e mantenha a trajetória."
+    }
+  ],
+  "Intermediario": [
+    {
+      "id": 121,
+      "categoria": "Segurança",
+      "pergunta": "Animal pequeno cruzou a pista. Ação:",
+      "opcoes": [
+        "Freie em linha reta, não desvie bruscamente",
+        "Desvie a todo custo",
+        "Buzine para espantar"
+      ],
+      "correta": 0,
+      "explicacao": "Desviar bruscamente causa quedas piores. Se não der para parar, infelizmente a segurança do piloto vem primeiro."
+    },
+    {
+      "id": 122,
+      "categoria": "Manutenção",
+      "pergunta": "Fluido de freio é 'higroscópico'. Isso significa:",
+      "opcoes": [
+        "Absorve umidade do ar e perde eficácia",
+        "É à prova d'água",
+        "Não precisa trocar nunca"
+      ],
+      "correta": 0,
+      "explicacao": "Ele chupa água do ar. Água ferve a 100°C, o fluido a 260°C. Se tiver água, o freio falha quando esquenta. Troque anualmente."
+    },
+    {
+      "id": 123,
+      "categoria": "Pilotagem",
+      "pergunta": "Pilotar em grupo (Bonde). Formação ideal:",
+      "opcoes": [
+        "Fila indiana colada",
+        "Formação alternada (Zigue-Zague)",
+        "Lado a lado conversando"
+      ],
+      "correta": 1,
+      "explicacao": "Um na esquerda, o de trás na direita, mantendo distância. Isso dobra o espaço de frenagem e visibilidade para todos."
+    },
+    {
+      "id": 124,
+      "categoria": "Segurança",
+      "pergunta": "Mancha de 'arco-íris' no asfalto molhado:",
+      "opcoes": [
+        "Bonito para foto",
+        "Óleo diesel derramado. Perigo extremo!",
+        "Marcação de trânsito"
+      ],
+      "correta": 1,
+      "explicacao": "Óleo na água refrata luz criando arco-íris. É igual gelo. Não incline, não freie e reze."
+    },
+    {
+      "id": 125,
+      "categoria": "Mecânica",
+      "pergunta": "Folga na corrente de transmissão:",
+      "opcoes": [
+        "Deve ser zero (esticada)",
+        "Deve ter 2 a 3cm de oscilação",
+        "Deve encostar na balança"
+      ],
+      "correta": 1,
+      "explicacao": "Quando a suspensão trabalha, a corrente estica. Se não tiver folga, ela arrebenta ou estraga o câmbio."
+    },
+    {
+      "id": 126,
+      "categoria": "Pilotagem",
+      "pergunta": "Neblina densa. Procedimento:",
+      "opcoes": [
+        "Ligar farol alto",
+        "Ligar pisca-alerta andando",
+        "Usar farol baixo e reduzir velocidade"
+      ],
+      "correta": 2,
+      "explicacao": "Farol alto reflete na neblina e cria uma 'parede branca'. Use o baixo e guie-se pelas faixas do chão."
+    },
+    {
+      "id": 127,
+      "categoria": "Equipamentos",
+      "pergunta": "Pinlock na viseira serve para:",
+      "opcoes": [
+        "Escurecer a visão",
+        "Evitar embaçamento",
+        "Proteger contra riscos"
+      ],
+      "correta": 1,
+      "explicacao": "É uma lente dupla que cria isolamento térmico, impedindo que sua respiração embace a viseira em dias frios/chuvosos."
+    },
+    {
+      "id": 128,
+      "categoria": "Tecnologia",
+      "pergunta": "Limitador de giro (Corte de giro) protege:",
+      "opcoes": [
+        "O motor de explodir por excesso de rotação",
+        "O ouvido dos pedestres",
+        "A embreagem"
+      ],
+      "correta": 0,
+      "explicacao": "Evita flutuação de válvulas. Mas não fique cortando giro parado, isso superaquece o motor por falta de vento."
+    },
+    {
+      "id": 129,
+      "categoria": "Segurança",
+      "pergunta": "Ultrapassagem segura requer:",
+      "opcoes": [
+        "Seta, Checagem de retrovisor e Visão direta",
+        "Apenas buzinar",
+        "Acelerar e ir na sorte"
+      ],
+      "correta": 0,
+      "explicacao": "O 'Headcheck' (olhadinha rápida para o lado) é vital para cobrir o ponto cego antes de mudar de faixa."
+    },
+    {
+      "id": 130,
+      "categoria": "Pilotagem",
+      "pergunta": "Freio motor em descida de serra:",
+      "opcoes": [
+        "Desça em ponto morto para economizar",
+        "Mantenha marcha engatada compatível",
+        "Desligue o motor"
+      ],
+      "correta": 1,
+      "explicacao": "A compressão do motor ajuda a segurar a moto, poupando os freios de superaquecerem."
+    },
+    {
+      "id": 131,
+      "categoria": "Manutenção",
+      "pergunta": "Pneus têm validade de fabricação (DOT):",
+      "opcoes": [
+        "Não, borracha é eterna",
+        "Cerca de 5 anos",
+        "10 anos"
+      ],
+      "correta": 1,
+      "explicacao": "Após 5 anos, a borracha resseca e perde aderência (vira 'madeira'), mesmo que o pneu pareça novo."
+    },
+    {
+      "id": 132,
+      "categoria": "Mecânica",
+      "pergunta": "Suspensão dianteira 'babando' óleo:",
+      "opcoes": [
+        "Lubrificação automática",
+        "Retentor estourado",
+        "Excesso de fluido"
+      ],
+      "correta": 1,
+      "explicacao": "Se o retentor estoura, o óleo vaza e pode cair no disco de freio, deixando a moto sem freio. Conserte já."
+    },
+    {
+      "id": 133,
+      "categoria": "Segurança",
+      "pergunta": "Carregar carga no bagageiro traseiro:",
+      "opcoes": [
+        "Deixa a frente da moto leve (boba)",
+        "Melhora a estabilidade",
+        "Não muda nada"
+      ],
+      "correta": 0,
+      "explicacao": "Muito peso atrás faz efeito alavanca, levantando a frente. Cuidado com shimmy e perda de direção."
+    },
+    {
+      "id": 134,
+      "categoria": "Pilotagem",
+      "pergunta": "Para subir calçada (meio-fio) em emergência:",
+      "opcoes": [
+        "Bata a roda e acelere",
+        "Levante, desacelere e puxe o guidão levemente",
+        "Vá de lado"
+      ],
+      "correta": 1,
+      "explicacao": "Use o corpo para aliviar o peso da frente na hora do impacto. Ataque a guia num ângulo de 90 graus."
+    },
+    {
+      "id": 135,
+      "categoria": "Tecnologia",
+      "pergunta": "O que faz o amortecedor de direção?",
+      "opcoes": [
+        "Deixa o guidão mais leve",
+        "Evita oscilações bruscas (Shimmy)",
+        "Amortece impactos no banco"
+      ],
+      "correta": 1,
+      "explicacao": "Ele restringe movimentos muito rápidos do guidão, ajudando a manter o controle em altas velocidades ou buracos."
+    },
+    {
+      "id": 136,
+      "categoria": "Segurança",
+      "pergunta": "Entrar em rodovia pela faixa de aceleração:",
+      "opcoes": [
+        "Entre devagar a 40km/h",
+        "Iguale a velocidade do fluxo antes de entrar",
+        "Pare no final da faixa"
+      ],
+      "correta": 1,
+      "explicacao": "Você deve entrar na velocidade dos carros. Entrar devagar obriga quem vem atrás a frear bruscamente."
+    },
+    {
+      "id": 137,
+      "categoria": "Mecânica",
+      "pergunta": "Filtro de ar muito sujo causa:",
+      "opcoes": [
+        "Alto consumo e perda de potência",
+        "Melhora na filtragem",
+        "Aquecimento do freio"
+      ],
+      "correta": 0,
+      "explicacao": "O motor precisa respirar. Se o filtro está entupido, entra menos ar e a moto gasta mais para andar menos."
+    },
+    {
+      "id": 138,
+      "categoria": "Pilotagem",
+      "pergunta": "Curva com raio decrescente (ela fecha no final):",
+      "opcoes": [
+        "Acelere tudo no meio",
+        "Mantenha velocidade e incline mais/freio traseiro",
+        "Freie forte com o dianteiro"
+      ],
+      "correta": 1,
+      "explicacao": "A curva engana. Entre com cautela. Se ela fechar, use a técnica de olhar mais para dentro e o freio traseiro para corrigir."
+    },
+    {
+      "id": 139,
+      "categoria": "Equipamentos",
+      "pergunta": "Protetor de coluna (Spine Protector):",
+      "opcoes": [
+        "Acessório estético",
+        "Evita lesões medulares em impactos nas costas",
+        "Serve para apoiar na parede"
+      ],
+      "correta": 1,
+      "explicacao": "Muitas jaquetas vêm com uma espuma simples. O protetor rígido certificado é essencial para evitar cadeira de rodas."
+    },
+    {
+      "id": 140,
+      "categoria": "Segurança",
+      "pergunta": "Ao ver um carro 'ziguezagueando' na frente:",
+      "opcoes": [
+        "Mantenha distância extrema, motorista pode estar bêbado/celular",
+        "Passe rápido xingando",
+        "Cole na traseira para avisar"
+      ],
+      "correta": 0,
+      "explicacao": "Motorista distraído ou embriagado é imprevisível. Fique longe até ter uma oportunidade 100% segura de passar."
+    }
+  ],
+  "Avancado": [
+    {
+      "id": 221,
+      "categoria": "Mecânica",
+      "pergunta": "Suspensão: O que é o 'Rebound' (Retorno)?",
+      "opcoes": [
+        "A velocidade que a suspensão comprime",
+        "A velocidade que a suspensão estende após comprimir",
+        "A altura da moto"
+      ],
+      "correta": 1,
+      "explicacao": "Controla a volta da mola. Se muito rápido, a moto 'quica'. Se muito lento, ela não volta a tempo do próximo buraco (packing)."
+    },
+    {
+      "id": 222,
+      "categoria": "Mecânica",
+      "pergunta": "Suspensão: O que é 'Compressão'?",
+      "opcoes": [
+        "Quão rápido a suspensão afunda no impacto",
+        "A dureza da mola",
+        "O tamanho da roda"
+      ],
+      "correta": 0,
+      "explicacao": "Regula a resistência ao afundamento. Ajuda a moto a não mergulhar demais em frenagens fortes (dive)."
+    },
+    {
+      "id": 223,
+      "categoria": "Tecnologia",
+      "pergunta": "Embreagem Deslizante (Slipper Clutch) evita:",
+      "opcoes": [
+        "Que a moto desligue",
+        "Travamento da roda traseira em reduções bruscas",
+        "Queimar a embreagem"
+      ],
+      "correta": 1,
+      "explicacao": "Em reduções agressivas, o torque reverso do motor trava a roda (wheel hop). O sistema deixa a embreagem 'patinar' controladamente."
+    },
+    {
+      "id": 224,
+      "categoria": "Mecânica",
+      "pergunta": "Gasolina de alta octanagem é necessária quando:",
+      "opcoes": [
+        "A moto é vermelha",
+        "O motor tem alta taxa de compressão",
+        "Quer limpar o motor"
+      ],
+      "correta": 1,
+      "explicacao": "Motores de alta performance comprimem muito a mistura. Gasolina comum explode antes da hora (detonação/batida de pino), furando o pistão."
+    },
+    {
+      "id": 225,
+      "categoria": "Física",
+      "pergunta": "Precessão Giroscópica explica:",
+      "opcoes": [
+        "Porque a moto cai parada",
+        "Porque ao empurrar guidão esquerdo, a roda vira e a moto tomba esquerda",
+        "O funcionamento do freio"
+      ],
+      "correta": 1,
+      "explicacao": "Uma força aplicada num giroscópio (roda) reage 90 graus depois. É a base científica do contra-esterço."
+    },
+    {
+      "id": 226,
+      "categoria": "Pilotagem",
+      "pergunta": "Trail Braking altera a geometria da moto:",
+      "opcoes": [
+        "Reduzindo o ângulo de Rake/Trail (agilidade)",
+        "Aumentando a distância entre eixos",
+        "Não altera nada"
+      ],
+      "correta": 0,
+      "explicacao": "Ao afundar a frente, o ângulo do garfo fecha levemente, facilitando a entrada na curva e aumentando o 'grip' dianteiro."
+    },
+    {
+      "id": 227,
+      "categoria": "Equipamentos",
+      "pergunta": "Pneu composto macio (Soft) vs Duro (Hard):",
+      "opcoes": [
+        "Macio dura mais",
+        "Macio tem mais grip, mas gasta rápido",
+        "Duro é para chuva"
+      ],
+      "correta": 1,
+      "explicacao": "Para performance máxima, usa-se macio. Para viagens longas (touring), usa-se duro no centro e macio nas bordas (bi-composto)."
+    },
+    {
+      "id": 228,
+      "categoria": "Tecnologia",
+      "pergunta": "Mapa de motor 'Rain' (Chuva) geralmente:",
+      "opcoes": [
+        "Suaviza a entrega de potência e aumenta interferência do TCS",
+        "Aumenta a potência",
+        "Desliga o ABS"
+      ],
+      "correta": 0,
+      "explicacao": "Torna o acelerador menos arisco. Mesmo se você girar tudo, a borboleta abre devagar para não destracionar."
+    },
+    {
+      "id": 229,
+      "categoria": "Mecânica",
+      "pergunta": "Corrente passo 520 vs 530:",
+      "opcoes": [
+        "520 é mais larga e pesada",
+        "520 é mais leve (menos inércia), usada em pistas",
+        "São iguais"
+      ],
+      "correta": 1,
+      "explicacao": "Pilotos trocam a 530/525 original por 520 para reduzir o peso rotacional e ganhar aceleração, sacrificando durabilidade."
+    },
+    {
+      "id": 230,
+      "categoria": "Segurança",
+      "pergunta": "Diferença entre Fading e Vitrificação de freio:",
+      "opcoes": [
+        "Fading é fluido fervendo; Vitrificação é pastilha queimada/lisa",
+        "São a mesma coisa",
+        "Fading acontece com freio frio"
+      ],
+      "correta": 0,
+      "explicacao": "Fading: manete borrachudo (bolhas). Vitrificação: manete duro, mas moto não para (superfície da pastilha virou vidro)."
+    },
+    {
+      "id": 231,
+      "categoria": "Tecnologia",
+      "pergunta": "Anti-Wheelie vs Controle de Tração:",
+      "opcoes": [
+        "Anti-wheelie evita empinar; TCS evita pneu derrapar",
+        "São a mesma função",
+        "Anti-wheelie serve para dar grau"
+      ],
+      "correta": 0,
+      "explicacao": "Sistemas distintos. O TCS monitora diferença de velocidade das rodas. O Anti-Wheelie monitora a inclinação (pitch) da moto."
+    },
+    {
+      "id": 232,
+      "categoria": "Mecânica",
+      "pergunta": "Comando Desmodrômico (Ducati) não usa:",
+      "opcoes": [
+        "Molas para fechar as válvulas",
+        "Óleo",
+        "Pistões"
+      ],
+      "correta": 0,
+      "explicacao": "Usa balancins para abrir E fechar a válvula. Isso evita flutuação em rotações altíssimas onde molas falhariam."
+    },
+    {
+      "id": 233,
+      "categoria": "Pilotagem",
+      "pergunta": "Ápice Tardio (Late Apex) favorece:",
+      "opcoes": [
+        "Velocidade de entrada",
+        "Velocidade de saída e visão",
+        "Desgaste de pneu"
+      ],
+      "correta": 1,
+      "explicacao": "Ao atrasar a curva, você endireita a moto mais cedo na saída, permitindo abrir o acelerador total antes (drive out)."
+    },
+    {
+      "id": 234,
+      "categoria": "Física",
+      "pergunta": "Massa não suspensa (Unsprung Weight):",
+      "opcoes": [
+        "Peso do piloto",
+        "Peso de tudo abaixo da suspensão (rodas, freios, pneus)",
+        "Peso do combustível"
+      ],
+      "correta": 1,
+      "explicacao": "Quanto menor o peso não suspenso (ex: rodas de carbono), melhor a suspensão copia o terreno e muda de direção."
+    },
+    {
+      "id": 235,
+      "categoria": "Tecnologia",
+      "pergunta": "IMU (Unidade de Medição Inercial) monitora:",
+      "opcoes": [
+        "Apenas velocidade",
+        "Eixos (Pitch, Roll, Yaw) e aceleração",
+        "Pressão dos pneus"
+      ],
+      "correta": 1,
+      "explicacao": "É o cérebro das motos modernas. Sabe se a moto está inclinada, empinando ou derrapando, e ajusta ABS/TCS em milissegundos."
+    },
+    {
+      "id": 236,
+      "categoria": "Pilotagem",
+      "pergunta": "Visão periférica em alta velocidade:",
+      "opcoes": [
+        "Aumenta (Visão panorâmica)",
+        "Diminui (Efeito Túnel)",
+        "Fica em preto e branco"
+      ],
+      "correta": 1,
+      "explicacao": "Quanto mais rápido, mais o cérebro foca no centro e apaga as laterais. Treine forçar a visão periférica para notar perigos."
+    },
+    {
+      "id": 237,
+      "categoria": "Mecânica",
+      "pergunta": "Motor Crossplane (R1) tem como característica:",
+      "opcoes": [
+        "Explosões irregulares para melhor tração",
+        "Menos vibração",
+        "Som de abelha"
+      ],
+      "correta": 0,
+      "explicacao": "O virabrequim em cruz muda o tempo de explosão (big bang), dando tempo para o pneu recuperar aderência entre pulsos de força."
+    },
+    {
+      "id": 238,
+      "categoria": "Pilotagem",
+      "pergunta": "Técnica de contra-peso em manobras lentas:",
+      "opcoes": [
+        "Inclinar corpo junto com a moto",
+        "Moto para dentro, corpo para fora (vertical)",
+        "Fechar os olhos"
+      ],
+      "correta": 1,
+      "explicacao": "No trânsito lento ou cones, jogue a moto para baixo e mantenha o tronco reto. Isso dá alavanca e equilíbrio fino."
+    },
+    {
+      "id": 239,
+      "categoria": "Física",
+      "pergunta": "O que é 'Chatter' na roda dianteira?",
+      "opcoes": [
+        "Vibração ressonante em curva (quicando)",
+        "Barulho de freio",
+        "Pneu furado"
+      ],
+      "correta": 0,
+      "explicacao": "Pesadelo de pilotos. Uma vibração harmônica entre a frequência natural do pneu e da suspensão que faz a frente perder grip ciclicamente."
+    },
+    {
+      "id": 240,
+      "categoria": "Tecnologia",
+      "pergunta": "Freio CBS (Combined Braking System):",
+      "opcoes": [
+        "Não deixa travar",
+        "Ao pisar no traseiro, aciona parcialmente o dianteiro",
+        "Freia sozinho"
+      ],
+      "correta": 1,
+      "explicacao": "Obrigatório em motos pequenas no Brasil. Distribui a força para corrigir o vício de pilotos que só usam o freio traseiro."
+    },
+ {
+  "Iniciante": [
+    {
+      "id": 41,
+      "categoria": "Pilotagem",
+      "pergunta": "Ao parar no semáforo, onde colocar os pés?",
+      "opcoes": [
+        "Os dois no chão",
+        "Pé esquerdo no chão, direito no freio",
+        "Pé direito no chão, esquerdo no câmbio"
+      ],
+      "correta": 1,
+      "explicacao": "Mantenha o pé direito no freio traseiro. Isso segura a moto em desníveis e deixa a luz de freio acesa, avisando quem vem atrás."
+    },
+    {
+      "id": 42,
+      "categoria": "Segurança",
+      "pergunta": "Tampa de bueiro molhada é igual a:",
+      "opcoes": [
+        "Lixa (muita aderência)",
+        "Sabão (escorrega muito)",
+        "Asfalto normal"
+      ],
+      "correta": 1,
+      "explicacao": "Metal molhado não tem atrito nenhum. Se passar por cima, não freie e não faça curvas. Passe reto e suave."
+    },
+    {
+      "id": 43,
+      "categoria": "Mecânica",
+      "pergunta": "O que acontece se rodar sem filtro de ar?",
+      "opcoes": [
+        "O motor respira melhor e dura mais",
+        "Entra poeira e risca o cilindro",
+        "Economiza combustível"
+      ],
+      "correta": 1,
+      "explicacao": "O filtro segura a sujeira. Sem ele, a poeira entra no motor e age como uma lixa, destruindo tudo por dentro."
+    },
+    {
+      "id": 44,
+      "categoria": "Equipamentos",
+      "pergunta": "Posso levar mochila nas costas?",
+      "opcoes": [
+        "Sim, se estiver firme e sem itens duros/pontiagudos",
+        "Não, é proibido",
+        "Sim, pendurada em um ombro só"
+      ],
+      "correta": 0,
+      "explicacao": "Cuidado com o que leva. Em uma queda, uma lata de refrigerante ou ferramenta na mochila pode lesionar sua coluna."
+    },
+    {
+      "id": 45,
+      "categoria": "Segurança",
+      "pergunta": "Cachorro correndo atrás da moto. O que fazer?",
+      "opcoes": [
+        "Tentar chutar o cachorro",
+        "Desacelerar e depois acelerar (quebrar o tempo)",
+        "Parar e fazer carinho"
+      ],
+      "correta": 1,
+      "explicacao": "O cachorro calcula onde você vai estar. Se você muda a velocidade bruscamente, ele perde o tempo do ataque e fica para trás."
+    },
+    {
+      "id": 46,
+      "categoria": "Manutenção",
+      "pergunta": "Ao lavar a moto com alta pressão (Wap):",
+      "opcoes": [
+        "Mire nos rolamentos e partes elétricas",
+        "Evite jatos diretos em painel, eixos e corrente",
+        "Use água fervendo"
+      ],
+      "correta": 1,
+      "explicacao": "A pressão empurra água para dentro dos rolamentos e conectores elétricos, causando ferrugem e curto-circuito."
+    },
+    {
+      "id": 47,
+      "categoria": "Pilotagem",
+      "pergunta": "Sua moto morreu na subida. Primeiro passo:",
+      "opcoes": [
+        "Largar a moto",
+        "Apertar o freio dianteiro com força",
+        "Apertar o freio traseiro ou dianteiro e segurar a embreagem"
+      ],
+      "correta": 2,
+      "explicacao": "Mantenha a calma. Segure a moto nos freios, coloque em ponto morto (ou segure a embreagem) e dê a partida novamente."
+    },
+    {
+      "id": 48,
+      "categoria": "Tecnologia",
+      "pergunta": "Para que serve o lampejador de farol (gatilho)?",
+      "opcoes": [
+        "Dar sinal de luz alta rápido",
+        "Ejetar óleo na pista",
+        "Tirar foto"
+      ],
+      "correta": 0,
+      "explicacao": "Serve para avisar que você vai passar ou alertar sobre perigos. Use com moderação para não cegar os outros."
+    },
+    {
+      "id": 49,
+      "categoria": "Segurança",
+      "pergunta": "Celular preso no suporte do guidão:",
+      "opcoes": [
+        "Pode usar à vontade andando",
+        "Só para GPS, proibido manusear em movimento",
+        "Serve para assistir vídeos"
+      ],
+      "correta": 1,
+      "explicacao": "Tirar a mão do guidão para mexer no celular dá multa e tombo. Configure o GPS antes de sair."
+    },
+    {
+      "id": 50,
+      "categoria": "Mecânica",
+      "pergunta": "Escapamento estourando (tiros) na desaceleração:",
+      "opcoes": [
+        "É normal e saudável",
+        "Mistura pobre ou entrada falsa de ar",
+        "Motor muito potente"
+      ],
+      "correta": 1,
+      "explicacao": "Geralmente indica que está entrando ar no escape ou falta combustível na mistura. Pode danificar válvulas a longo prazo."
+    },
+    {
+      "id": 51,
+      "categoria": "Pilotagem",
+      "pergunta": "Passageiro (garupa) deve segurar onde?",
+      "opcoes": [
+        "Nos ombros do piloto",
+        "Nas alças traseiras ou cintura do piloto",
+        "No guidão"
+      ],
+      "correta": 1,
+      "explicacao": "Segurar na cintura dá mais estabilidade e une os corpos. Segurar no ombro cansa o piloto e desequilibra."
+    },
+    {
+      "id": 52,
+      "categoria": "Segurança",
+      "pergunta": "Estacionar em terreno de terra ou grama:",
+      "opcoes": [
+        "O descanso afunda e a moto cai",
+        "É o lugar mais seguro",
+        "Não tem problema"
+      ],
+      "correta": 0,
+      "explicacao": "O 'pezinho' perfura a terra como uma agulha. Coloque uma base (pedra, lata amassada ou base plástica) embaixo para ampliar a área."
+    },
+    {
+      "id": 53,
+      "categoria": "Manutenção",
+      "pergunta": "Cabo do acelerador não volta sozinho:",
+      "opcoes": [
+        "Piloto automático grátis",
+        "Perigo gravíssimo, lubrifique ou troque",
+        "Normal em motos velhas"
+      ],
+      "correta": 1,
+      "explicacao": "Se o acelerador travar aberto numa curva ou frenagem, o acidente é certo. O manete tem que voltar instantaneamente quando solto."
+    },
+    {
+      "id": 54,
+      "categoria": "Equipamentos",
+      "pergunta": "Usar capacete 'coquinho' (aberto sem queixeira):",
+      "opcoes": [
+        "Mais ventilado e seguro",
+        "Protege menos, rosto fica exposto",
+        "Proibido em rodovias"
+      ],
+      "correta": 1,
+      "explicacao": "Se cair de cara, o queixo e os dentes vão no asfalto. O capacete fechado (integral) é infinitamente mais seguro."
+    },
+    {
+      "id": 55,
+      "categoria": "Pilotagem",
+      "pergunta": "Curvas em descida exigem:",
+      "opcoes": [
+        "Acelerar mais",
+        "Entrar com marcha mais baixa e freio motor",
+        "Embreagem apertada"
+      ],
+      "correta": 1,
+      "explicacao": "A gravidade empurra a moto. Use o freio motor para segurar a velocidade sem superaquecer os freios."
+    },
+    {
+      "id": 56,
+      "categoria": "Segurança",
+      "pergunta": "Ônibus parado no ponto. Risco:",
+      "opcoes": [
+        "Nenhum",
+        "Pedestres atravessando pela frente do ônibus",
+        "O ônibus dar ré"
+      ],
+      "correta": 1,
+      "explicacao": "Clássico atropelamento. O pedestre desce e cruza na frente do ônibus, saindo invisível direto para a sua faixa. Reduza!"
+    },
+    {
+      "id": 57,
+      "categoria": "Tecnologia",
+      "pergunta": "Odomêtro parcial (Trip) serve para:",
+      "opcoes": [
+        "Saber a hora",
+        "Medir distância de viagens ou consumo",
+        "Enfeite"
+      ],
+      "correta": 1,
+      "explicacao": "Use para controlar a autonomia. Se sua moto faz 300km com um tanque, zere ao abastecer e fique de olho."
+    },
+    {
+      "id": 58,
+      "categoria": "Mecânica",
+      "pergunta": "Pneu com 'bolha' na lateral:",
+      "opcoes": [
+        "Pode rodar na cidade",
+        "Estrutura rompida, risco de estourar",
+        "Só estética"
+      ],
+      "correta": 1,
+      "explicacao": "A malha interna de aço/nylon rompeu. O pneu pode explodir a qualquer momento. Troca imediata."
+    },
+    {
+      "id": 59,
+      "categoria": "Segurança",
+      "pergunta": "Sair de trás de um veículo grande para ultrapassar:",
+      "opcoes": [
+        "Saia de uma vez",
+        "Afaste-se primeiro para ganhar visão",
+        "Buzine e vá"
+      ],
+      "correta": 1,
+      "explicacao": "Se estiver colado, você não vê o que vem no sentido contrário. Dê distância, olhe, e só então acelere."
+    },
+    {
+      "id": 60,
+      "categoria": "Pilotagem",
+      "pergunta": "Braços muito cansados ou doloridos indicam:",
+      "opcoes": [
+        "Pilotagem esportiva",
+        "Você está segurando o guidão com muita força",
+        "Falta de academia"
+      ],
+      "correta": 1,
+      "explicacao": "Apoie o peso nas pernas e abdômen, não nos braços. O guidão serve para direcionar, não para se segurar."
+    }
+  ],
+  "Intermediario": [
+    {
+      "id": 141,
+      "categoria": "Segurança",
+      "pergunta": "Efeito Túnel (Visão) acontece quando:",
+      "opcoes": [
+        "Entra no túnel",
+        "A velocidade aumenta e a visão periférica some",
+        "Usa óculos escuros"
+      ],
+      "correta": 1,
+      "explicacao": "A 100km/h, seu campo de visão se estreita. Você deixa de ver perigos nas laterais. Mova os olhos ativamente."
+    },
+    {
+      "id": 142,
+      "categoria": "Pilotagem",
+      "pergunta": "Curva com desnível negativo (Off-camber/Caída para fora):",
+      "opcoes": [
+        "Ajuda a fazer a curva",
+        "Joga a moto para fora da curva",
+        "Não muda nada"
+      ],
+      "correta": 1,
+      "explicacao": "A pista é inclinada 'errado', contra a curva. A aderência diminui drasticamente. Reduza a velocidade e incline menos."
+    },
+    {
+      "id": 143,
+      "categoria": "Manutenção",
+      "pergunta": "Pastilhas de freio sinterizadas:",
+      "opcoes": [
+        "Duram menos e freiam pouco",
+        "São feitas de metal, freiam mais e aguentam calor",
+        "São feitas de borracha"
+      ],
+      "correta": 1,
+      "explicacao": "Ideais para motos maiores ou uso intenso. Elas precisam esquentar um pouco para funcionar bem, mas não sofrem fading fácil."
+    },
+    {
+      "id": 144,
+      "categoria": "Mecânica",
+      "pergunta": "Motor 'Fumando' (Fumaça branca/azulada no escape):",
+      "opcoes": [
+        "Queimando óleo (anéis ou retentores gastos)",
+        "Combustível de alta qualidade",
+        "Excesso de ar"
+      ],
+      "correta": 0,
+      "explicacao": "O óleo está entrando na câmara de combustão. Fique de olho no nível do óleo, pois ele vai baixar rápido."
+    },
+    {
+      "id": 145,
+      "categoria": "Segurança",
+      "pergunta": "Cruzamento em 'T'. A moto vai seguir reto na principal:",
+      "opcoes": [
+        "Cuidado com quem sai da rua lateral (conversão à esquerda)",
+        "Sua preferência é absoluta",
+        "Acelere para passar logo"
+      ],
+      "correta": 0,
+      "explicacao": "Carros saindo da rua lateral frequentemente não veem a moto ou calculam mal a velocidade. Reduza e prepare o freio."
+    },
+    {
+      "id": 146,
+      "categoria": "Tecnologia",
+      "pergunta": "Farol de LED vs Halógeno. Vantagem do LED:",
+      "opcoes": [
+        "Mais barato para trocar",
+        "Esquenta mais",
+        "Acendimento instantâneo, menor consumo e maior brilho"
+      ],
+      "correta": 2,
+      "explicacao": "Além de iluminar mais, o LED reduz a carga na bateria/estator. Mas cuidado com LEDs baratos que ofuscam os outros."
+    },
+    {
+      "id": 147,
+      "categoria": "Pilotagem",
+      "pergunta": "Técnica para passar em lombada (quebra-molas):",
+      "opcoes": [
+        "Frear em cima dela",
+        "Ficar em pé (pedaleiras) e acelerar levemente ao passar",
+        "Passar sentado relaxado"
+      ],
+      "correta": 1,
+      "explicacao": "Levante do banco para usar seus joelhos como suspensão extra. Acelerar levemente alivia o peso da frente."
+    },
+    {
+      "id": 148,
+      "categoria": "Equipamentos",
+      "pergunta": "Protetor de mão (Handguard) serve para:",
+      "opcoes": [
+        "Aerodinâmica",
+        "Proteger contra pedras, frio e batidas em retrovisores",
+        "Apoiar a mão"
+      ],
+      "correta": 1,
+      "explicacao": "No corredor ou na estrada, uma pedrinha no dedo dói muito (ou quebra). O protetor evita isso e também o vento gelado."
+    },
+    {
+      "id": 149,
+      "categoria": "Segurança",
+      "pergunta": "Pilotando com sol de frente (poente/nascente):",
+      "opcoes": [
+        "Acelerada para chegar logo",
+        "O motorista à frente também está cego. Aumente a distância",
+        "Olhe para o sol"
+      ],
+      "correta": 1,
+      "explicacao": "Se você não vê, ninguém vê. As luzes de freio ficam difíceis de distinguir. Redobre a distância de segurança."
+    },
+    {
+      "id": 150,
+      "categoria": "Manutenção",
+      "pergunta": "Ao esticar a corrente, deve-se alinhar a roda:",
+      "opcoes": [
+        "Olhando apenas um lado",
+        "Pelas marcas da balança nos dois lados",
+        "No olho, de qualquer jeito"
+      ],
+      "correta": 1,
+      "explicacao": "Roda torta gasta pneu errado, come a relação e deixa a moto instável. Use as marcações de referência da balança."
+    },
+    {
+      "id": 151,
+      "categoria": "Mecânica",
+      "pergunta": "Vibração excessiva nas pedaleiras e guidão pode ser:",
+      "opcoes": [
+        "Motor solto (coxins gastos) ou balanceamento de roda",
+        "Pista lisa",
+        "Vento a favor"
+      ],
+      "correta": 0,
+      "explicacao": "Verifique o aperto dos parafusos do motor (coxins) ou se a roda perdeu o chumbo de balanceamento."
+    },
+    {
+      "id": 152,
+      "categoria": "Pilotagem",
+      "pergunta": "Uso de marchas altas em baixa velocidade (Motor socando):",
+      "opcoes": [
+        "Economiza muito",
+        "Força o pistão/biela e causa pré-ignição",
+        "Não faz mal"
+      ],
+      "correta": 1,
+      "explicacao": "Isso é 'lugging'. O motor vibra e sofre esforço excessivo. Reduza a marcha para manter o giro saudável (faixa de torque)."
+    },
+    {
+      "id": 153,
+      "categoria": "Segurança",
+      "pergunta": "Ao ver areia acumulada no canto da curva:",
+      "opcoes": [
+        "Abra a curva (fique no meio/fora)",
+        "Feche a curva passando por cima",
+        "Freie em cima da areia"
+      ],
+      "correta": 0,
+      "explicacao": "Evite a sujeira a todo custo. Mantenha a moto na trilha limpa (onde os pneus dos carros passam)."
+    },
+    {
+      "id": 154,
+      "categoria": "Tecnologia",
+      "pergunta": "Câmbio DCT (Dual Clutch - Honda) ou Automático:",
+      "opcoes": [
+        "Não tem manete de embreagem",
+        "Tem embreagem no pé",
+        "É igual scooter CVT"
+      ],
+      "correta": 0,
+      "explicacao": "A moto troca as marchas sozinha ou por botões. Não tem manete esquerdo. Cuidado para não procurar a embreagem e frear sem querer."
+    },
+    {
+      "id": 155,
+      "categoria": "Manutenção",
+      "pergunta": "O que verificar nas mangueiras de freio?",
+      "opcoes": [
+        "Rachaduras, vazamentos ou bolhas",
+        "A cor da borracha",
+        "Se estão brilhando"
+      ],
+      "correta": 0,
+      "explicacao": "Mangueira velha resseca e racha. Se estourar na frenagem, você fica sem freio instantaneamente."
+    },
+    {
+      "id": 156,
+      "categoria": "Pilotagem",
+      "pergunta": "Olhar pelo retrovisor antes de reduzir velocidade:",
+      "opcoes": [
+        "Desnecessário",
+        "Crucial para não levar uma batida na traseira",
+        "Só se ouvir barulho"
+      ],
+      "correta": 1,
+      "explicacao": "Sempre cheque a retaguarda. Se tiver um caminhão colado, não freie brusco. Dê espaço ou saia da frente."
+    },
+    {
+      "id": 157,
+      "categoria": "Equipamentos",
+      "pergunta": "Botas de motociclismo devem ter solado:",
+      "opcoes": [
+        "De couro liso",
+        "Antiderrapante e rígido",
+        "De espuma macia"
+      ],
+      "correta": 1,
+      "explicacao": "Você pisa em óleo e água nos semáforos. Solado liso faz seu pé escorregar e a moto tombar parada."
+    },
+    {
+      "id": 158,
+      "categoria": "Segurança",
+      "pergunta": "Acidente à frente. O que NÃO fazer?",
+      "opcoes": [
+        "Parar em local seguro e sinalizar",
+        "Parar no meio da pista para olhar (Curiosidade)",
+        "Ligar para emergência"
+      ],
+      "correta": 1,
+      "explicacao": "Parar para olhar ('rubbernecking') causa engavetamentos secundários. Se não for ajudar, siga e não atrapalhe."
+    },
+    {
+      "id": 159,
+      "categoria": "Mecânica",
+      "pergunta": "Radiador amassado ou sujo de barro:",
+      "opcoes": [
+        "Melhora a aerodinâmica",
+        "Impede a passagem de ar e superaquece a moto",
+        "Protege o motor"
+      ],
+      "correta": 1,
+      "explicacao": "As aletas precisam estar limpas e retas para o ar passar e esfriar o líquido. Limpe com cuidado para não amassar mais."
+    },
+    {
+      "id": 160,
+      "categoria": "Pilotagem",
+      "pergunta": "Vento lateral saindo de um túnel ou corte de pedra:",
+      "opcoes": [
+        "É suave e constante",
+        "Vem como uma 'martelada' súbita",
+        "O vento para"
+      ],
+      "correta": 1,
+      "explicacao": "Ao sair da proteção do túnel, a rajada lateral te empurra de repente. Esteja preparado para inclinar a moto contra o vento imediatamente."
+    }
+  ],
+  "Avancado": [
+    {
+      "id": 241,
+      "categoria": "Física",
+      "pergunta": "Sag Estático (Static Sag) da suspensão:",
+      "opcoes": [
+        "Quanto a moto baixa apenas com o peso dela",
+        "Quanto baixa com o piloto",
+        "Altura do banco"
+      ],
+      "correta": 0,
+      "explicacao": "É o afundamento da suspensão sob o próprio peso da moto (sem piloto). Crucial para garantir que a roda tenha curso para descer em buracos (top-out)."
+    },
+    {
+      "id": 242,
+      "categoria": "Tecnologia",
+      "pergunta": "Suspensão Eletrônica Semiativa:",
+      "opcoes": [
+        "Ajusta o amortecimento em tempo real conforme o terreno",
+        "Usa imãs para flutuar",
+        "Só funciona parada"
+      ],
+      "correta": 0,
+      "explicacao": "Válvulas solenoides abrem e fecham a passagem de óleo centenas de vezes por segundo, deixando a moto macia no buraco e firme na curva."
+    },
+    {
+      "id": 243,
+      "categoria": "Mecânica",
+      "pergunta": "Cilindro Mestre Radial vs Axial:",
+      "opcoes": [
+        "Radial empurra o pistão no mesmo sentido do manete (mais tato)",
+        "Axial é melhor para pista",
+        "Radial é mais barato"
+      ],
+      "correta": 0,
+      "explicacao": "No radial, a força da mão é transmitida diretamente, sem perdas de alavanca, garantindo uma frenagem muito mais precisa e potente."
+    },
+    {
+      "id": 244,
+      "categoria": "Pilotagem",
+      "pergunta": "Conceito de 'Traction Circle' (Círculo de Kamm):",
+      "opcoes": [
+        "Pneu redondo",
+        "O limite total de aderência dividido entre frear/acelerar e virar",
+        "Rotatória de trânsito"
+      ],
+      "correta": 1,
+      "explicacao": "O pneu tem 100% de grip. Se usar 100% para frear, não sobra nada para virar. Se virar usando 50%, só sobram 50% para frear."
+    },
+    {
+      "id": 245,
+      "categoria": "Física",
+      "pergunta": "Efeito 'Squat' na aceleração:",
+      "opcoes": [
+        "A frente levanta",
+        "A traseira afunda devido à transferência de peso",
+        "A moto pula"
+      ],
+      "correta": 1,
+      "explicacao": "Ao acelerar, o peso vai para trás, comprimindo a suspensão traseira. O excesso de squat deixa a frente leve demais e perde direção."
+    },
+    {
+      "id": 246,
+      "categoria": "Mecânica",
+      "pergunta": "Ângulo de Caster (Rake) menor/fechado:",
+      "opcoes": [
+        "Moto mais estável em retas (Chopper)",
+        "Moto mais ágil em curvas, mas instável em retas (Esportiva)",
+        "Não muda nada"
+      ],
+      "correta": 1,
+      "explicacao": "Garfo mais 'em pé' facilita tombar a moto na curva, mas aumenta o risco de shimmy em alta velocidade."
+    },
+    {
+      "id": 247,
+      "categoria": "Segurança",
+      "pergunta": "Lowside Crash (Escorregada) geralmente ocorre quando:",
+      "opcoes": [
+        "Excede o limite de aderência dos pneus suavemente",
+        "A suspensão ejeta o piloto",
+        "O motor trava"
+      ],
+      "correta": 0,
+      "explicacao": "A moto perde a frente ou a traseira e desliza deitada 'saindo' da curva. Menos perigoso que o Highside, mas ainda dói."
+    },
+    {
+      "id": 248,
+      "categoria": "Tecnologia",
+      "pergunta": "Ride-by-Wire (Acelerador Eletrônico):",
+      "opcoes": [
+        "Usa cabo de aço direto",
+        "Envia sinal elétrico para a ECU controlar a borboleta",
+        "Funciona por wi-fi"
+      ],
+      "correta": 1,
+      "explicacao": "Permite modos de pilotagem, controle de tração e cruise control, pois o computador decide o quanto abrir a admissão, não apenas sua mão."
+    },
+    {
+      "id": 249,
+      "categoria": "Pilotagem",
+      "pergunta": "Backing it in (Derrapagem na entrada de curva):",
+      "opcoes": [
+        "Erro de iniciante",
+        "Uso do freio motor/traseiro para rotacionar a moto antes do ápice",
+        "Pneu furado"
+      ],
+      "correta": 1,
+      "explicacao": "Técnica de Supermoto/MotoGP. A traseira escorrega para fora, apontando a frente da moto para a saída da curva mais cedo."
+    },
+    {
+      "id": 250,
+      "categoria": "Mecânica",
+      "pergunta": "Válvula termostática travada fechada:",
+      "opcoes": [
+        "Motor não esquenta",
+        "Superaquecimento rápido, pois a água não vai pro radiador",
+        "Economiza água"
+      ],
+      "correta": 1,
+      "explicacao": "Ela bloqueia o fluxo. Se não abrir quando o motor esquenta, o líquido ferve dentro do bloco e o motor funde."
+    },
+    {
+      "id": 251,
+      "categoria": "Física",
+      "pergunta": "Energia Cinética dobra quando:",
+      "opcoes": [
+        "A velocidade dobra",
+        "A velocidade quadruplica",
+        "A velocidade aumenta (V²), então se dobrar velocidade, quadruplica a energia"
+      ],
+      "correta": 2,
+      "explicacao": "Bater a 80km/h é 4 vezes mais forte que bater a 40km/h, não o dobro. A física é implacável."
+    },
+    {
+      "id": 252,
+      "categoria": "Tecnologia",
+      "pergunta": "Sistema VVT (Comando de Válvulas Variável):",
+      "opcoes": [
+        "Altera o tempo/levante das válvulas conforme o giro",
+        "Troca o óleo sozinho",
+        "Aumenta o tamanho do pistão"
+      ],
+      "correta": 0,
+      "explicacao": "Otimiza o motor para ter torque em baixa rotação E potência em alta, alterando o perfil do comando (ex: ShiftCam, VTEC)."
+    },
+    {
+      "id": 253,
+      "categoria": "Pilotagem",
+      "pergunta": "Visão focada vs Visão periférica na pista:",
+      "opcoes": [
+        "Focada no asfalto",
+        "Focada nos pontos de referência, periférica na noção de velocidade/posição",
+        "Olhos fechados"
+      ],
+      "correta": 1,
+      "explicacao": "Você foca no ponto de frenagem, depois no ápice, depois na saída. A periférica cuida do resto (zebras, outros pilotos)."
+    },
+    {
+      "id": 254,
+      "categoria": "Mecânica",
+      "pergunta": "Amortecedor de direção eletrônico:",
+      "opcoes": [
+        "É sempre duro",
+        "Fica rígido em alta velocidade e leve em baixa",
+        "Funciona a bateria"
+      ],
+      "correta": 1,
+      "explicacao": "Ele endurece conforme a velocidade aumenta para evitar shimmy, mas deixa o guidão leve para manobrar na garagem."
+    },
+    {
+      "id": 255,
+      "categoria": "Equipamentos",
+      "pergunta": "Macacão de couro com cupim (Aerodinâmica):",
+      "opcoes": [
+        "Serve para guardar água",
+        "Alinha o fluxo de ar entre capacete e costas",
+        "Protege contra chuva"
+      ],
+      "correta": 1,
+      "explicacao": "Evita turbulência atrás do capacete em alta velocidade, reduzindo o arrasto e o cansaço no pescoço do piloto."
+    },
+    {
+      "id": 256,
+      "categoria": "Física",
+      "pergunta": "Centro de Gravidade (CG) baixo:",
+      "opcoes": [
+        "Dificulta curvas rápidas (mudança de direção lenta)",
+        "Facilita agilidade",
+        "Deixa a moto instável"
+      ],
+      "correta": 0,
+      "explicacao": "Motos com CG muito baixo são estáveis, mas preguiçosas para deitar. Motos de corrida tem CG mais alto para tombar rápido (efeito pêndulo)."
+    },
+    {
+      "id": 257,
+      "categoria": "Pilotagem",
+      "pergunta": "Uso de 'Clutchless Upshift' (sem Quickshifter):",
+      "opcoes": [
+        "Impossível",
+        "Alivie levemente o acelerador e suba a marcha simultaneamente",
+        "Force o pedal até entrar"
+      ],
+      "correta": 1,
+      "explicacao": "Ao aliviar o acelerador, você tira a carga das engrenagens do câmbio por um instante, permitindo a troca sem embreagem."
+    },
+    {
+      "id": 258,
+      "categoria": "Mecânica",
+      "pergunta": "Freio a disco 'Flutuante':",
+      "opcoes": [
+        "O disco tem folga nos rebites para expandir com calor",
+        "Ele não toca na roda",
+        "É feito de plástico"
+      ],
+      "correta": 0,
+      "explicacao": "Permite que a pista de frenagem se centralize nas pastilhas e dilate sem empenar (warping) sob calor extremo."
+    },
+    {
+      "id": 259,
+      "categoria": "Tecnologia",
+      "pergunta": "EBC (Engine Brake Control):",
+      "opcoes": [
+        "Aumenta o freio motor",
+        "Gerencia o quanto a borboleta abre na desaceleração para reduzir arrasto",
+        "Freia a moto sozinha"
+      ],
+      "correta": 1,
+      "explicacao": "Em motos potentes, o freio motor excessivo pode travar a roda. O EBC mantém um tiquinho de aceleração para suavizar a entrada de curva."
+    },
+    {
+      "id": 260,
+      "categoria": "Segurança",
+      "pergunta": "Dinâmica de colisão: Capacete solto:",
+      "opcoes": [
+        "Protege igual",
+        "Gira e expõe a base do crânio ou sai da cabeça",
+        "É mais confortável"
+      ],
+      "correta": 1,
+      "explicacao": "Se houver folga, no primeiro impacto o capacete gira. No segundo impacto, sua cabeça bate direto no chão. Tem que apertar as bochechas."
+    },
+    {
+  "Iniciante": [
+    {
+      "id": 61,
+      "categoria": "Segurança",
+      "pergunta": "Ao carregar bagagem na garupa:",
+      "opcoes": [
+        "Amarre de qualquer jeito com corda",
+        "Use rede elástica (aranha) ou baú fixo",
+        "Leve no colo"
+      ],
+      "correta": 1,
+      "explicacao": "Cargas soltas podem cair na roda ou corrente, travando a moto. Use extensores elásticos ou baús travados."
+    },
+    {
+      "id": 62,
+      "categoria": "Mecânica",
+      "pergunta": "Moto carburada antiga. Torneira de combustível em 'RES':",
+      "opcoes": [
+        "Significa Resfriamento",
+        "Significa Reserva (gasolina acabando)",
+        "Significa Restaurar"
+      ],
+      "correta": 1,
+      "explicacao": "É a Reserva. Se você já está nela, corra para o posto, pois não há outra reserva depois dessa."
+    },
+    {
+      "id": 63,
+      "categoria": "Pilotagem",
+      "pergunta": "Como estacionar em uma ladeira íngreme?",
+      "opcoes": [
+        "Em ponto morto (Neutro)",
+        "Com a moto engatada em 1ª marcha",
+        "Apenas com o pezinho"
+      ],
+      "correta": 1,
+      "explicacao": "O 'pezinho' pode escorregar. Deixar engatada na primeira marcha trava a roda traseira pelo motor e evita que a moto desça."
+    },
+    {
+      "id": 64,
+      "categoria": "Segurança",
+      "pergunta": "Andar com farol alto na cidade à noite:",
+      "opcoes": [
+        "Ofusca os outros e é proibido",
+        "É bom para impor respeito",
+        "Ajuda a ver buracos"
+      ],
+      "correta": 0,
+      "explicacao": "Você cega quem vem na direção contrária e quem está na sua frente pelo retrovisor. Use farol baixo em vias iluminadas."
+    },
+    {
+      "id": 65,
+      "categoria": "Equipamentos",
+      "pergunta": "Como limpar a viseira do capacete?",
+      "opcoes": [
+        "Com álcool ou thinner",
+        "Água morna e sabão neutro, usando a mão",
+        "Esponja de aço"
+      ],
+      "correta": 1,
+      "explicacao": "Produtos químicos ou esponjas riscam o policarbonato e tiram a proteção UV. Lave suavemente para não ficar com a visão turva."
+    },
+    {
+      "id": 66,
+      "categoria": "Segurança",
+      "pergunta": "Tempo de reação médio de um piloto atento:",
+      "opcoes": [
+        "Zero segundos (imediato)",
+        "0,75 a 1 segundo",
+        "5 segundos"
+      ],
+      "correta": 1,
+      "explicacao": "Entre ver o perigo e apertar o freio, você percorre uma distância 'cega'. Por isso a distância de seguimento é vital."
+    },
+    {
+      "id": 67,
+      "categoria": "Pilotagem",
+      "pergunta": "Sair de manhã com pneus frios:",
+      "opcoes": [
+        "Eles têm menos aderência, cuidado nas curvas",
+        "Já pode deitar nas curvas",
+        "Não faz diferença"
+      ],
+      "correta": 0,
+      "explicacao": "A borracha precisa esquentar para grudar no asfalto. Nos primeiros quilômetros, pilote suavemente."
+    },
+    {
+      "id": 68,
+      "categoria": "Manutenção",
+      "pergunta": "Antes de qualquer viagem, verifique (Checklist):",
+      "opcoes": [
+        "A cor da moto",
+        "Pneus, luzes, óleo, corrente e freios",
+        "O som do escapamento"
+      ],
+      "correta": 1,
+      "explicacao": "O famoso 'check-up' visual. Gasta 2 minutos e evita ficar parado na estrada ou sofrer acidentes."
+    },
+    {
+      "id": 69,
+      "categoria": "Mecânica",
+      "pergunta": "Frequência ideal para lubrificar a corrente:",
+      "opcoes": [
+        "A cada 3.000 km",
+        "A cada 400-500 km ou após chuva",
+        "Nunca precisa"
+      ],
+      "correta": 1,
+      "explicacao": "Corrente seca esquenta, desgasta os dentes da relação e pode quebrar. Mantenha sempre lubrificada."
+    },
+    {
+      "id": 70,
+      "categoria": "Tecnologia",
+      "pergunta": "O que significa 'CC' do motor (ex: 150cc)?",
+      "opcoes": [
+        "Cavalos de Corrida",
+        "Capacidade de Carga",
+        "Centímetros Cúbicos (Volume do cilindro)"
+      ],
+      "correta": 2,
+      "explicacao": "É o tamanho do motor. Quanto maior a cilindrada, geralmente maior a força e o consumo de combustível."
+    },
+    {
+      "id": 71,
+      "categoria": "Segurança",
+      "pergunta": "Sinal manual: Braço esquerdo esticado ao lado:",
+      "opcoes": [
+        "Vou virar à esquerda",
+        "Vou parar",
+        "Vou virar à direita"
+      ],
+      "correta": 0,
+      "explicacao": "Se a seta queimar, use os braços. Braço esticado horizontalmente indica conversão à esquerda."
+    },
+    {
+      "id": 72,
+      "categoria": "Segurança",
+      "pergunta": "Sinal manual: Braço esquerdo levantado para cima:",
+      "opcoes": [
+        "Vou acelerar",
+        "Vou virar à direita",
+        "Cumprimento"
+      ],
+      "correta": 1,
+      "explicacao": "O braço esquerdo dobrado em 90º para cima indica conversão à direita (já que a mão direita está no acelerador)."
+    },
+    {
+      "id": 73,
+      "categoria": "Pilotagem",
+      "pergunta": "Pilotar ao lado de caminhões:",
+      "opcoes": [
+        "Fique longe dos pneus e pontos cegos",
+        "Fique bem colado",
+        "Vá por baixo"
+      ],
+      "correta": 0,
+      "explicacao": "Pneus de caminhão explodem e soltam pedaços de borracha pesados. Além disso, o motorista não te vê nas laterais."
+    },
+    {
+      "id": 74,
+      "categoria": "Segurança",
+      "pergunta": "Pedrinhas soltas (cascalho) na curva:",
+      "opcoes": [
+        "Incline bastante para desviar",
+        "Levante a moto, reduza e passe o mais reto possível",
+        "Freie com o dianteiro"
+      ],
+      "correta": 1,
+      "explicacao": "Cascalho age como rolamentos sob o pneu. Se inclinar ou frear a frente, o chão some. Passe 'pianinho'."
+    },
+    {
+      "id": 75,
+      "categoria": "Segurança",
+      "pergunta": "A moto caiu parada. Como levantar?",
+      "opcoes": [
+        "De costas para a moto, usando as pernas",
+        "Puxando pelo guidão com os braços",
+        "Pedindo um guindaste"
+      ],
+      "correta": 0,
+      "explicacao": "Encoste a bunda no banco, segure alça e guidão, e empurre com as pernas. Se puxar com a coluna, vai travar as costas."
+    },
+    {
+      "id": 76,
+      "categoria": "Mecânica",
+      "pergunta": "Placa da moto dobrada ou suja:",
+      "opcoes": [
+        "Multa gravíssima e apreensão da moto",
+        "É estiloso",
+        "Ajuda a fugir de radar"
+      ],
+      "correta": 0,
+      "explicacao": "Placa ilegível é considerada tentativa de burlar a lei. Dá problema sério com a polícia. Mantenha visível."
+    },
+    {
+      "id": 77,
+      "categoria": "Segurança",
+      "pergunta": "Passageiro queimou a perna no escape. Por quê?",
+      "opcoes": [
+        "O escape estava frio",
+        "Desceu pelo lado errado ou sem calça adequada",
+        "O motor é ruim"
+      ],
+      "correta": 1,
+      "explicacao": "Instrua o garupa a descer sempre pelo lado da pedaleira e evitar encostar na panela quente. É uma queimadura dolorosa."
+    },
+    {
+      "id": 78,
+      "categoria": "Equipamentos",
+      "pergunta": "Tamanho correto do capacete:",
+      "opcoes": [
+        "Largo e confortável",
+        "Justo, apertando levemente as bochechas",
+        "Apertando a testa até doer"
+      ],
+      "correta": 1,
+      "explicacao": "Ele cede com o uso. Se comprar largo, vai ficar sambando na cabeça depois e não protege nada."
+    },
+    {
+      "id": 79,
+      "categoria": "Pilotagem",
+      "pergunta": "Quando ligar a seta (pisca)?",
+      "opcoes": [
+        "Junto com a manobra",
+        "Com antecedência para avisar a intenção",
+        "Depois que virou"
+      ],
+      "correta": 1,
+      "explicacao": "A seta serve para PEDIR passagem ou AVISAR manobra. Ligue antes de frear ou mudar de faixa."
+    },
+    {
+      "id": 80,
+      "categoria": "Segurança",
+      "pergunta": "O que é 'fina' ou 'tirar fininho'?",
+      "opcoes": [
+        "Passar muito perto de outro veículo",
+        "Tipo de pneu",
+        "Manobra segura"
+      ],
+      "correta": 0,
+      "explicacao": "É passar raspando. Prática perigosa e desnecessária que assusta motoristas e causa acidentes por milímetros."
+    }
+  ],
+  "Intermediario": [
+    {
+      "id": 161,
+      "categoria": "Segurança",
+      "pergunta": "Etiqueta no Corredor: Moto mais rápida atrás de você.",
+      "opcoes": [
+        "Acelere para competir",
+        "Dê passagem assim que seguro (vá para a direita)",
+        "Freie para ele bater"
+      ],
+      "correta": 1,
+      "explicacao": "Não tranque o corredor. Gentileza gera gentileza. Se ele quer correr, deixe ele ir (e levar a multa na frente)."
+    },
+    {
+      "id": 162,
+      "categoria": "Pilotagem",
+      "pergunta": "Técnica visual em curvas: 'Comer pelas bordas'.",
+      "opcoes": [
+        "Olhar para o guard-rail",
+        "Começar aberto para ver o final da curva antes de entrar",
+        "Fechar os olhos"
+      ],
+      "correta": 1,
+      "explicacao": "Quanto mais aberto você entra na curva, maior seu ângulo de visão da saída. Isso evita surpresas no meio da trajetória."
+    },
+    {
+      "id": 163,
+      "categoria": "Física",
+      "pergunta": "Por que a moto se mantém em pé em movimento?",
+      "opcoes": [
+        "Efeito Giroscópico e Inércia",
+        "Vento lateral",
+        "Habilidade do piloto apenas"
+      ],
+      "correta": 0,
+      "explicacao": "As rodas girando criam estabilidade giroscópica. Quanto mais rápido, mais 'dura' a moto fica para sair da linha reta."
+    },
+    {
+      "id": 164,
+      "categoria": "Manutenção",
+      "pergunta": "Sangria de freio serve para:",
+      "opcoes": [
+        "Tirar o sangue do motor",
+        "Retirar bolhas de ar do sistema hidráulico",
+        "Limpar o disco"
+      ],
+      "correta": 1,
+      "explicacao": "O ar é compressível, o fluido não. Se tiver ar na mangueira, você aperta o manete e nada acontece (borrachudo)."
+    },
+    {
+      "id": 165,
+      "categoria": "Mecânica",
+      "pergunta": "Leitura de Pneu: O que é o '70' em 120/70-17?",
+      "opcoes": [
+        "Largura em mm",
+        "Altura do perfil (% da largura)",
+        "Aro da roda"
+      ],
+      "correta": 1,
+      "explicacao": "É a altura da 'parede' do pneu. 70% de 120mm. Perfis mais baixos são mais esportivos/duros; mais altos absorvem melhor impacto."
+    },
+    {
+      "id": 166,
+      "categoria": "Mecânica",
+      "pergunta": "Óleo 10W-40. O 'W' significa:",
+      "opcoes": [
+        "Weight (Peso)",
+        "Winter (Inverno/Partida a frio)",
+        "Water (Água)"
+      ],
+      "correta": 1,
+      "explicacao": "Indica a viscosidade do óleo quando frio. Quanto menor o número, mais rápido o óleo sobe para lubrificar o motor na partida."
+    },
+    {
+      "id": 167,
+      "categoria": "Pilotagem",
+      "pergunta": "Vento lateral forte empurrando para a esquerda. Ação:",
+      "opcoes": [
+        "Incline a moto para a direita (contra o vento)",
+        "Deixe o vento levar",
+        "Pare a moto"
+      ],
+      "correta": 0,
+      "explicacao": "Você precisa brigar com o vento. Faça contra-esterço para inclinar a moto contra a rajada e manter a linha reta."
+    },
+    {
+      "id": 168,
+      "categoria": "Segurança",
+      "pergunta": "Desvio de emergência (Swerving):",
+      "opcoes": [
+        "Use o corpo para virar",
+        "Empurre o guidão firme (Push Steering) para o lado da fuga",
+        "Freie e vire ao mesmo tempo"
+      ],
+      "correta": 1,
+      "explicacao": "Para desviar rápido, o contra-esterço agressivo é a única salvação. Empurre o guidão para derrubar a moto na direção do escape."
+    },
+    {
+      "id": 169,
+      "categoria": "Segurança",
+      "pergunta": "Pilotagem em grupo: O líder deve...",
+      "opcoes": [
+        "Correr muito",
+        "Manter ritmo compatível com o menos experiente",
+        "Fazer ultrapassagens arriscadas"
+      ],
+      "correta": 1,
+      "explicacao": "O bonde anda na velocidade do mais lento. O líder cuida do grupo e sinaliza perigos. Ninguém fica para trás."
+    },
+    {
+      "id": 170,
+      "categoria": "Segurança",
+      "pergunta": "Fadiga em viagens longas (Hipnose de estrada):",
+      "opcoes": [
+        "Beba café e continue",
+        "Pare, hidrate-se e alongue a cada 150-200km",
+        "Acelere para chegar logo"
+      ],
+      "correta": 1,
+      "explicacao": "A mente desliga com o barulho e o vento constante. Paradas estratégicas renovam os reflexos e evitam acidentes bobos."
+    },
+    {
+      "id": 171,
+      "categoria": "Equipamentos",
+      "pergunta": "Selo do INMETRO no capacete:",
+      "opcoes": [
+        "Obrigatório no Brasil",
+        "Opcional se for importado",
+        "Serve só para encarecer"
+      ],
+      "correta": 0,
+      "explicacao": "Para rodar legalmente no Brasil, o capacete precisa ter o selo ou etiqueta interna da norma NBR 7471."
+    },
+    {
+      "id": 172,
+      "categoria": "Manutenção",
+      "pergunta": "Corrente com 'pontos duros' (elos travados):",
+      "opcoes": [
+        "Passe graxa que resolve",
+        "Indica fim da vida útil, troque a relação",
+        "É normal"
+      ],
+      "correta": 1,
+      "explicacao": "Se os elos não esticam, a corrente chicoteia e faz barulho cíclico. O risco de quebra é iminente."
+    },
+    {
+      "id": 173,
+      "categoria": "Mecânica",
+      "pergunta": "Folga no manete de embreagem:",
+      "opcoes": [
+        "Deve ter 2 a 3mm de folga livre antes de acionar",
+        "Deve ser zero (cabo esticado)",
+        "Deve ser enorme"
+      ],
+      "correta": 0,
+      "explicacao": "Sem essa folguinha, a embreagem pode ficar levemente acionada (patinando) enquanto você anda, queimando os discos."
+    },
+    {
+      "id": 174,
+      "categoria": "Segurança",
+      "pergunta": "Excesso de peso (Carga + Garupa):",
+      "opcoes": [
+        "Aumenta a distância de frenagem drasticamente",
+        "Não muda nada",
+        "Deixa a moto mais rápida"
+      ],
+      "correta": 0,
+      "explicacao": "Mais massa = mais inércia. Os freios vão demorar muito mais para parar a moto. Antecipe tudo."
+    },
+    {
+      "id": 175,
+      "categoria": "Pilotagem",
+      "pergunta": "Posição dos pés nas pedaleiras:",
+      "opcoes": [
+        "Calcanhar apoiado",
+        "Ponta dos pés (Metatarso) apoiada",
+        "Pé pendurado para fora"
+      ],
+      "correta": 1,
+      "explicacao": "Apoiar na ponta dos pés permite usar as pernas como amortecedor e evita que seus pés raspem no chão nas curvas."
+    },
+    {
+      "id": 176,
+      "categoria": "Segurança",
+      "pergunta": "Target Fixation (Fixação no Alvo) é:",
+      "opcoes": [
+        "Técnica de tiro",
+        "Olhar fixamente para o obstáculo e acabar batendo nele",
+        "Olhar para o painel"
+      ],
+      "correta": 1,
+      "explicacao": "Seus olhos guiam as mãos. Se você olhar para o buraco, vai cair no buraco. Force a visão para o espaço livre ao lado."
+    },
+    {
+      "id": 177,
+      "categoria": "Pilotagem",
+      "pergunta": "Freio motor agressivo em chuva:",
+      "opcoes": [
+        "Pode travar a roda traseira e causar derrapagem",
+        "É o mais seguro",
+        "Não funciona na chuva"
+      ],
+      "correta": 0,
+      "explicacao": "Reduzir marcha bruscamente no molhado tem o mesmo efeito de puxar o freio de mão. Solte a embreagem com muita suavidade."
+    },
+    {
+      "id": 178,
+      "categoria": "Segurança",
+      "pergunta": "Folhas molhadas na pista:",
+      "opcoes": [
+        "São inofensivas",
+        "Escorregam tanto quanto gelo/óleo",
+        "Dão aderência extra"
+      ],
+      "correta": 1,
+      "explicacao": "Matéria orgânica em decomposição úmida é extremamente lisa. Não mude de direção ou freie em cima delas."
+    },
+    {
+      "id": 179,
+      "categoria": "Segurança",
+      "pergunta": "Acidente SMIDSY ('Desculpe, não te vi'):",
+      "opcoes": [
+        "Carro vira à esquerda cortando a frente da moto",
+        "Moto bate atrás do carro",
+        "Pedestre atravessa"
+      ],
+      "correta": 0,
+      "explicacao": "É o acidente urbano mais comum. O motorista olha, não registra a moto (cegueira inatencional) e cruza sua frente."
+    },
+    {
+      "id": 180,
+      "categoria": "Manutenção",
+      "pergunta": "Pressão dos pneus com garupa:",
+      "opcoes": [
+        "Mantenha a mesma",
+        "Aumente a pressão do traseiro (vide manual)",
+        "Diminua a pressão"
+      ],
+      "correta": 1,
+      "explicacao": "Mais peso exige mais ar para o pneu não deformar excessivamente e superaquecer. Consulte o adesivo na balança da moto."
+    }
+  ],
+  "Avancado": [
+    {
+      "id": 261,
+      "categoria": "Física",
+      "pergunta": "Diferença entre Wobble e Weave:",
+      "opcoes": [
+        "Wobble é na frente (rápido); Weave é na moto toda (ondulante)",
+        "São a mesma coisa",
+        "Wobble é traseira"
+      ],
+      "correta": 0,
+      "explicacao": "Wobble (shimmy) é a frente batendo. Weave é a moto 'rebolando' em alta velocidade, geralmente por aerodinâmica ou chassi torcendo."
+    },
+    {
+      "id": 262,
+      "categoria": "Mecânica",
+      "pergunta": "Pneu com 'Cold Tear' (Rasgo de frio):",
+      "opcoes": [
+        "Acontece quando o pneu superaquece",
+        "Pneu frio demais, a borracha rasga em vez de gastar uniforme",
+        "Pneu furado"
+      ],
+      "correta": 1,
+      "explicacao": "Se acelerar forte com pneu frio, a superfície esquenta mas o miolo não. A borracha arranca em tiras. Calibre correto e aqueça."
+    },
+    {
+      "id": 263,
+      "categoria": "Manutenção",
+      "pergunta": "Ponto de ebulição 'Úmido' do fluido de freio:",
+      "opcoes": [
+        "Temperatura que ele ferve quando novo",
+        "Temperatura que ele ferve após absorver 3.7% de água",
+        "Temperatura da chuva"
+      ],
+      "correta": 1,
+      "explicacao": "Fluido velho (úmido) ferve muito mais cedo (ex: cai de 260°C para 180°C), deixando você sem freio no meio da serra."
+    },
+    {
+      "id": 264,
+      "categoria": "Física",
+      "pergunta": "Geometria: O que é o 'Trail'?",
+      "opcoes": [
+        "Trilha de terra",
+        "Distância entre o ponto de contato do pneu e o eixo de esterço projetado",
+        "Comprimento da moto"
+      ],
+      "correta": 1,
+      "explicacao": "É o que dá estabilidade. Trail maior = moto mais estável (estradeira). Trail menor = moto arisca (esportiva)."
+    },
+    {
+      "id": 265,
+      "categoria": "Física",
+      "pergunta": "Ângulo de Deriva (Slip Angle):",
+      "opcoes": [
+        "O pneu não aponta exatamente pra onde a moto vai",
+        "Ângulo do cavalete",
+        "Erro de montagem"
+      ],
+      "correta": 0,
+      "explicacao": "Para fazer curva, a borracha torce. A moto 'caminha' um pouco de lado. Gerenciar esse escorregamento é a chave da pilotagem pro."
+    },
+    {
+      "id": 266,
+      "categoria": "Mecânica",
+      "pergunta": "Motor 'Big Bang' vs 'Screamer':",
+      "opcoes": [
+        "Big Bang agrupa explosões para dar descanso ao pneu",
+        "Screamer é mais silencioso",
+        "Big Bang gasta menos"
+      ],
+      "correta": 0,
+      "explicacao": "Em motores de corrida, agrupar as explosões melhora a tração, pois o pneu tem intervalos de milissegundos para recuperar grip entre os pulsos de força."
+    },
+    {
+      "id": 267,
+      "categoria": "Física",
+      "pergunta": "A 200km/h, a energia cinética é:",
+      "opcoes": [
+        "O dobro de 100km/h",
+        "4 vezes maior que a 100km/h",
+        "Igual"
+      ],
+      "correta": 1,
+      "explicacao": "A energia sobe ao quadrado da velocidade. Se bater a 200, o estrago é quatro vezes maior que a 100. Pense nisso."
+    },
+    {
+      "id": 268,
+      "categoria": "Pilotagem",
+      "pergunta": "Como iniciar o 'Backing it in' (Derrapagem controlada)?",
+      "opcoes": [
+        "Puxando o freio de mão",
+        "Redução de marcha agressiva + freio dianteiro forte + leve freio traseiro",
+        "Acelerando tudo"
+      ],
+      "correta": 1,
+      "explicacao": "Ao frear forte a frente, a traseira levanta. A redução de marcha cria arrasto e a traseira escorrega lateralmente na entrada."
+    },
+    {
+      "id": 269,
+      "categoria": "Mecânica",
+      "pergunta": "Vantagem das rodas de Fibra de Carbono:",
+      "opcoes": [
+        "São mais baratas",
+        "Reduzem drasticamente o Momento de Inércia (Giroscópio)",
+        "Não quebram nunca"
+      ],
+      "correta": 1,
+      "explicacao": "Com menos massa girante, a moto muda de direção muito mais rápido e acelera/freia melhor. Upgrade caro, mas eficiente."
+    },
+    {
+      "id": 270,
+      "categoria": "Tecnologia",
+      "pergunta": "Amortecedor de direção Rotativo vs Pistão:",
+      "opcoes": [
+        "Rotativo fica em cima da mesa; Pistão é uma haste alongada",
+        "Rotativo gira a roda",
+        "Pistão é para motor"
+      ],
+      "correta": 0,
+      "explicacao": "Ambos evitam shimmy. O rotativo (ex: Scotts/GPR) é compacto e ajustável no guidão. O de pistão parece um amortecedor pequeno."
+    },
+    {
+      "id": 271,
+      "categoria": "Mecânica",
+      "pergunta": "Remap de ECU: Mistura Pobre (Lean) causa:",
+      "opcoes": [
+        "Mais potência e motor frio",
+        "Motor mais quente e risco de derreter pistão",
+        "Fumaça preta"
+      ],
+      "correta": 1,
+      "explicacao": "Fábricas deixam a mistura pobre para passar em leis de emissão. Pobre demais esquenta absurdamente. O Remap ajusta isso."
+    },
+    {
+      "id": 272,
+      "categoria": "Manutenção",
+      "pergunta": "Uso de Nitrogênio nos pneus:",
+      "opcoes": [
+        "Faz a moto voar",
+        "Mantém a pressão mais estável com variação de temperatura",
+        "É grátis"
+      ],
+      "correta": 1,
+      "explicacao": "O nitrogênio expande menos que o ar comprimido (que tem umidade) quando esquenta. Essencial em pista para manter a geometria."
+    },
+    {
+      "id": 273,
+      "categoria": "Tecnologia",
+      "pergunta": "Launch Control (Controle de Largada):",
+      "opcoes": [
+        "Permite acelerar tudo e soltar a embreagem sem virar para trás",
+        "Lança foguetes",
+        "Controla o freio"
+      ],
+      "correta": 0,
+      "explicacao": "O sistema segura o giro no ponto ideal e gerencia a potência para máxima tração, evitando que a moto empine excessivamente."
+    },
+    {
+      "id": 274,
+      "categoria": "Mecânica",
+      "pergunta": "Válvulas de Titânio servem para:",
+      "opcoes": [
+        "Não enferrujar",
+        "Reduzir massa recíproca e permitir giros mais altos (RPM)",
+        "Deixar o motor mais pesado"
+      ],
+      "correta": 1,
+      "explicacao": "Sendo mais leves, as molas conseguem fechar a válvula mais rápido, permitindo que o motor gire a 14.000+ RPM sem flutuar."
+    },
+    {
+      "id": 275,
+      "categoria": "Pilotagem",
+      "pergunta": "Visão: 'Olhar Amplo' (Wide View):",
+      "opcoes": [
+        "Focar em um ponto só",
+        "Processar todo o campo visual sem focar em nada específico",
+        "Olhar para o chão"
+      ],
+      "correta": 1,
+      "explicacao": "Técnica avançada. Você percebe movimento em todo o cenário, detectando perigos na periferia mais rápido que se estivesse focado."
+    },
+    {
+      "id": 276,
+      "categoria": "Mecânica",
+      "pergunta": "Balança (Swingarm) mais longa:",
+      "opcoes": [
+        "Melhora tração e estabilidade, dificulta empinar",
+        "Melhora curvas fechadas",
+        "Deixa a moto instável"
+      ],
+      "correta": 0,
+      "explicacao": "Usada em Drag Racing e Hill Climb. Aumenta a distância entre eixos, mantendo a frente no chão na aceleração bruta."
+    },
+    {
+      "id": 277,
+      "categoria": "Mecânica",
+      "pergunta": "Pinças de freio Monobloco:",
+      "opcoes": [
+        "São feitas de uma peça única usinada, sem parafusos de junção",
+        "São feitas de plástico",
+        "Usam uma pastilha só"
+      ],
+      "correta": 0,
+      "explicacao": "Sendo uma peça só, elas não dilatam/abrem sob pressão extrema, garantindo que toda a força vá para o disco, não para torcer a pinça."
+    },
+    {
+      "id": 278,
+      "categoria": "Mecânica",
+      "pergunta": "Cilindro Mestre 19x18 vs 19x20. O 19x18:",
+      "opcoes": [
+        "É mais borrachudo",
+        "É mais agressivo/sensível e exige menos força na mão",
+        "É para freio traseiro"
+      ],
+      "correta": 1,
+      "explicacao": "O segundo número (18) é a distância do pivô. Quanto menor, maior a alavanca. O 19x18 é favorito em pistas por ser 'arisco'."
+    },
+    {
+      "id": 279,
+      "categoria": "Física",
+      "pergunta": "Recuperando de um Highside (no início):",
+      "opcoes": [
+        "Feche o acelerador de vez",
+        "Mantenha o acelerador constante ou aumente suavemente",
+        "Freie forte"
+      ],
+      "correta": 1,
+      "explicacao": "Se fechar o gás, a traseira ganha grip de repente e te ejeta. Manter o gás faz a roda continuar deslizando até alinhar suavemente."
+    },
+    {
+      "id": 280,
+      "categoria": "Pilotagem",
+      "pergunta": "Frenagem Regressiva (Trail Braking) e a aderência:",
+      "opcoes": [
+        "Você troca força de frenagem por ângulo de inclinação",
+        "Você freia igual até o fim",
+        "Você acelera na entrada"
+      ],
+      "correta": 0,
+      "explicacao": "Conforme a moto inclina (precisa de grip lateral), você deve aliviar o freio (liberar grip longitudinal). É um balanço fino."
+    },
+    {
+  "Iniciante": [
+    {
+      "id": 81,
+      "categoria": "Pilotagem",
+      "pergunta": "Fazer 'zigue-zague' para aquecer pneu:",
+      "opcoes": [
+        "Funciona muito bem",
+        "Não adianta nada e é perigoso",
+        "Só funciona em motos grandes"
+      ],
+      "correta": 1,
+      "explicacao": "Pneu esquenta com aceleração e frenagem (carcaça trabalhando). Zigue-zague só serve para cair e parecer bobo."
+    },
+    {
+      "id": 82,
+      "categoria": "Segurança",
+      "pergunta": "Bateram na sua traseira. O que fazer primeiro?",
+      "opcoes": [
+        "Tirar o capacete para brigar",
+        "Verificar se você está ferido e ir para local seguro",
+        "Ver se a moto riscou"
+      ],
+      "correta": 1,
+      "explicacao": "Adrenalina esconde a dor. Saia da via imediatamente para não ser atropelado por um segundo carro."
+    },
+    {
+      "id": 83,
+      "categoria": "Mecânica",
+      "pergunta": "Para que servem os contrapesos nas pontas do guidão?",
+      "opcoes": [
+        "Reduzir a vibração nas mãos",
+        "Proteger em caso de queda",
+        "Apenas estética"
+      ],
+      "correta": 0,
+      "explicacao": "Eles mudam a frequência de ressonância do guidão, evitando que suas mãos fiquem formigando em viagens."
+    },
+    {
+      "id": 84,
+      "categoria": "Equipamentos",
+      "pergunta": "O forro interno do capacete deve ser lavado?",
+      "opcoes": [
+        "Sim, acumula suor e bactérias",
+        "Não, estraga a espuma",
+        "Só se pegar chuva"
+      ],
+      "correta": 0,
+      "explicacao": "Higiene básica. O suor ácido corrói a espuma com o tempo. A maioria é removível e lavável."
+    },
+    {
+      "id": 85,
+      "categoria": "Segurança",
+      "pergunta": "Ultrapassar pela direita (pelo acostamento):",
+      "opcoes": [
+        "Permitido para motos",
+        "Infração gravíssima (multa x5)",
+        "Permitido se tiver trânsito"
+      ],
+      "correta": 1,
+      "explicacao": "Acostamento é para emergência. Além da multa pesada, é onde fica toda a sujeira, pregos e vidros da estrada."
+    },
+    {
+      "id": 86,
+      "categoria": "Pilotagem",
+      "pergunta": "Ao entrar em um túnel escuro de dia:",
+      "opcoes": [
+        "Tire os óculos escuros ou levante a viseira fumê",
+        "Acelere para sair logo",
+        "Ligue o pisca alerta"
+      ],
+      "correta": 0,
+      "explicacao": "A mudança de luz causa cegueira momentânea. Se estiver de óculos escuros, você fica totalmente cego lá dentro."
+    },
+    {
+      "id": 87,
+      "categoria": "Mecânica",
+      "pergunta": "Moto 'afogada' (não pega e cheira gasolina):",
+      "opcoes": [
+        "Acelere tudo e dê a partida",
+        "Espere um tempo ou dê partida com acelerador todo aberto (sem bombear)",
+        "Jogue água no motor"
+      ],
+      "correta": 1,
+      "explicacao": "Entrou gasolina demais. Abrir o acelerador todo permite entrar ar para secar a câmara de combustão."
+    },
+    {
+      "id": 88,
+      "categoria": "Segurança",
+      "pergunta": "Cadarço do tênis desamarrado:",
+      "opcoes": [
+        "Risco de enroscar na corrente/pedal e causar tombo",
+        "É estilo",
+        "Não atrapalha"
+      ],
+      "correta": 0,
+      "explicacao": "Um perigo clássico e silencioso. Se enroscar na hora de pôr o pé no chão, você cai parado sem poder fazer nada."
+    },
+    {
+      "id": 89,
+      "categoria": "Pilotagem",
+      "pergunta": "Manobra em baixa velocidade (ex: retorno):",
+      "opcoes": [
+        "Olhe para o chão",
+        "Olhe para trás, por cima do ombro, para onde quer ir",
+        "Olhe para o guidão"
+      ],
+      "correta": 1,
+      "explicacao": "A moto segue o olhar. Virar a cabeça ao máximo ajuda o corpo a equilibrar a moto em voltas apertadas."
+    },
+    {
+      "id": 90,
+      "categoria": "Tecnologia",
+      "pergunta": "Painel digital 'mentiroso' (Velocímetro):",
+      "opcoes": [
+        "Marca sempre menos que a real",
+        "Marca sempre um pouco a mais (Margem de erro)",
+        "É 100% preciso"
+      ],
+      "correta": 1,
+      "explicacao": "De fábrica, velocímetros marcam entre 5% a 10% a mais. Se marca 100km/h, você está a uns 92km/h reais (GPS)."
+    },
+    {
+      "id": 91,
+      "categoria": "Manutenção",
+      "pergunta": "Luz do pisca piscando muito rápido:",
+      "opcoes": [
+        "A moto está feliz",
+        "Uma das lâmpadas queimou",
+        "Bateria fraca"
+      ],
+      "correta": 1,
+      "explicacao": "O relé dispara quando a resistência diminui. Verifique qual lâmpada (dianteira ou traseira) queimou."
+    },
+    {
+      "id": 92,
+      "categoria": "Segurança",
+      "pergunta": "Ao cruzar linha férrea:",
+      "opcoes": [
+        "Acelere forte",
+        "Cruze o mais perpendicular (90 graus) possível",
+        "Passe beirando o trilho"
+      ],
+      "correta": 1,
+      "explicacao": "Metal é liso. Se o pneu pegar de lado no trilho, ele escorrega e entra na fenda, derrubando a moto."
+    },
+    {
+      "id": 93,
+      "categoria": "Pilotagem",
+      "pergunta": "Mão esquerda cansada no trânsito:",
+      "opcoes": [
+        "Coloque em Neutro quando parar",
+        "Segure a embreagem sempre",
+        "Troque de mão"
+      ],
+      "correta": 0,
+      "explicacao": "Aproveite os semáforos para por no Neutro e relaxar a mão da embreagem. Evita tendinite."
+    },
+    {
+      "id": 94,
+      "categoria": "Equipamentos",
+      "pergunta": "Roupa preta à noite:",
+      "opcoes": [
+        "É camuflagem urbana",
+        "Te deixa invisível, use colete refletivo",
+        "É a mais segura"
+      ],
+      "correta": 1,
+      "explicacao": "Ser visto é estar vivo. Detalhes refletivos ou cores claras ajudam os motoristas a te identificarem."
+    },
+    {
+      "id": 95,
+      "categoria": "Segurança",
+      "pergunta": "Piso de posto de gasolina:",
+      "opcoes": [
+        "Geralmente liso e com manchas de óleo/diesel",
+        "Muito aderente",
+        "Igual asfalto"
+      ],
+      "correta": 0,
+      "explicacao": "O concreto polido somado a respingos de combustível vira sabão. Cuidado redobrado ao manobrar e frear."
+    },
+    {
+      "id": 96,
+      "categoria": "Mecânica",
+      "pergunta": "Parafusos da carenagem vibrando:",
+      "opcoes": [
+        "Aperte até espanar",
+        "Use trava-rosca químico ou reaperte com torque certo",
+        "Cole com supercola"
+      ],
+      "correta": 1,
+      "explicacao": "Motos vibram. Parafusos se soltam. Um reaperto periódico (check-up) evita que sua moto desmonte na rua."
+    },
+    {
+      "id": 97,
+      "categoria": "Pilotagem",
+      "pergunta": "Descida de serra longa. Para economizar freio:",
+      "opcoes": [
+        "Desligue o motor",
+        "Use marcha reduzida (freio motor)",
+        "Freie só com o traseiro"
+      ],
+      "correta": 1,
+      "explicacao": "Deixe o motor segurar o peso da moto. Se usar só o freio, ele superaquece e para de funcionar (fading)."
+    },
+    {
+      "id": 98,
+      "categoria": "Segurança",
+      "pergunta": "O cumprimento motociclista (Mão baixa/V):",
+      "opcoes": [
+        "Obrigação legal",
+        "Sinal de respeito e solidariedade na estrada",
+        "Sinal de briga"
+      ],
+      "correta": 1,
+      "explicacao": "Espírito de corpo. Significa 'estamos juntos' e 'boa viagem'. Se der para soltar a mão com segurança, cumprimente."
+    },
+    {
+      "id": 99,
+      "categoria": "Manutenção",
+      "pergunta": "Cuidado com lavajato (produtos):",
+      "opcoes": [
+        "Solupan/Ativado mancha alumínio e resseca borrachas",
+        "Pode usar tudo",
+        "O melhor é querosene puro na pintura"
+      ],
+      "correta": 0,
+      "explicacao": "Produtos ácidos (limpa-baú) destroem o verniz do motor, anodização e ressecam retentores. Use shampoo neutro."
+    },
+    {
+      "id": 100,
+      "categoria": "Pilotagem",
+      "pergunta": "Objetivo final de todo passeio de moto:",
+      "opcoes": [
+        "Chegar mais rápido que o GPS",
+        "Chegar vivo e inteiro em casa",
+        "Cortar giro na frente da polícia"
+      ],
+      "correta": 1,
+      "explicacao": "A moto é um prazer, não uma roleta russa. Pilote para poder pilotar amanhã de novo."
+    }
+  ],
+  "Intermediario": [
+    {
+      "id": 181,
+      "categoria": "Manutenção",
+      "pergunta": "Remendo de pneu tipo 'Macarrão' (Refil):",
+      "opcoes": [
+        "Solução definitiva e eterna",
+        "Solução de emergência, ideal vulcanizar depois",
+        "Estraga o pneu"
+      ],
+      "correta": 1,
+      "explicacao": "Salva na estrada, mas pode vazar com o tempo. O ideal é levar ao borracheiro para remendo interno (vulcanização)."
+    },
+    {
+      "id": 182,
+      "categoria": "Mecânica",
+      "pergunta": "Troca de bateria. Qual cabo tirar primeiro?",
+      "opcoes": [
+        "Positivo (+)",
+        "Negativo (-)",
+        "Tanto faz"
+      ],
+      "correta": 1,
+      "explicacao": "Tire o Negativo (-) primeiro. Se a chave encostar no quadro tirando o positivo, dá curto. Sem o terra, não há risco."
+    },
+    {
+      "id": 183,
+      "categoria": "Segurança",
+      "pergunta": "Zona de Turbulência atrás de caminhão:",
+      "opcoes": [
+        "Vácuo estável",
+        "Ar sujo que balança a moto e o capacete",
+        "Lugar mais seguro"
+      ],
+      "correta": 1,
+      "explicacao": "O ar vem todo revolto ('buffeting'). Causa fadiga no pescoço e instabilidade na frente da moto. Saia daí."
+    },
+    {
+      "id": 184,
+      "categoria": "Pilotagem",
+      "pergunta": "Conceito de 'Ritmo' na estrada:",
+      "opcoes": [
+        "Andar no limite o tempo todo",
+        "Fluidez: acelerar e frear suavemente, poupando físico",
+        "Parar toda hora"
+      ],
+      "correta": 1,
+      "explicacao": "Piloto bom é piloto suave. Quem freia muito e acelera muito cansa rápido. Mantenha a média com fluidez."
+    },
+    {
+      "id": 185,
+      "categoria": "Tecnologia",
+      "pergunta": "Velas de Iridium duram:",
+      "opcoes": [
+        "Menos que as comuns",
+        "Muito mais e garantem faísca mais precisa",
+        "A mesma coisa"
+      ],
+      "correta": 1,
+      "explicacao": "Metal nobre, eletrodo mais fino. Melhor queima e durabilidade 2x a 3x maior que velas de cobre/níquel."
+    },
+    {
+      "id": 186,
+      "categoria": "Segurança",
+      "pergunta": "Sinalização de óleo na pista por outros pilotos:",
+      "opcoes": [
+        "Pé balançando ou apontando para o chão",
+        "Mão na cabeça",
+        "Buzinaço"
+      ],
+      "correta": 0,
+      "explicacao": "Código universal. Se o motociclista à frente esticou a perna e apontou pro chão, tem sujeira ou óleo. Desvie."
+    },
+    {
+      "id": 187,
+      "categoria": "Pilotagem",
+      "pergunta": "Curvas com garupa exigem:",
+      "opcoes": [
+        "Mais inclinação para a mesma velocidade",
+        "Menos inclinação",
+        "Que o garupa feche os olhos"
+      ],
+      "correta": 0,
+      "explicacao": "Mais peso comprime a suspensão e abaixa as pedaleiras. Você raspa no chão mais cedo. Entre mais devagar."
+    },
+    {
+      "id": 188,
+      "categoria": "Mecânica",
+      "pergunta": "Líquido de freio escuro (cor de coca-cola):",
+      "opcoes": [
+        "Está velho, oxidado e úmido. Trocar.",
+        "Está 'curtido' e bom",
+        "É a cor original"
+      ],
+      "correta": 0,
+      "explicacao": "O fluido novo é amarelo claro/transparente. Escuro indica contaminação e perda de propriedades."
+    },
+    {
+      "id": 189,
+      "categoria": "Equipamentos",
+      "pergunta": "Protetor auditivo (plugs) em viagens:",
+      "opcoes": [
+        "Proibido, não ouve buzina",
+        "Reduz ruído do vento, evita fadiga e zumbido, mas ouve buzinas",
+        "Serve para ouvir música"
+      ],
+      "correta": 1,
+      "explicacao": "O barulho do vento a 100km/h danifica a audição permanentemente. Plugs filtram o chiado, mas deixam passar sons agudos (alertas)."
+    },
+    {
+      "id": 190,
+      "categoria": "Segurança",
+      "pergunta": "Armadilha urbana: Carro parou para pedestre na faixa.",
+      "opcoes": [
+        "Ultrapasse rápido",
+        "Pare também, o pedestre vai surgir na sua frente",
+        "Buzine para o carro andar"
+      ],
+      "correta": 1,
+      "explicacao": "Se o carro parou do nada, tem alguém atravessando. Se você passar rasgando, vai atropelar o pedestre."
+    },
+    {
+      "id": 191,
+      "categoria": "Pilotagem",
+      "pergunta": "Entrada de curva 'atrasada' (Late Turn-in):",
+      "opcoes": [
+        "Te deixa lento",
+        "Permite ver mais longe e sair acelerando antes",
+        "É perigoso"
+      ],
+      "correta": 1,
+      "explicacao": "Mergulhar cedo na curva (early apex) te joga para a contramão na saída. Atrase a entrada para ter segurança."
+    },
+    {
+      "id": 192,
+      "categoria": "Manutenção",
+      "pergunta": "Rolamento de roda estragado faz:",
+      "opcoes": [
+        "Ronco (vuuu-vuuu) que aumenta com a velocidade ou estalos",
+        "Barulho de escapamento",
+        "A moto andar mais"
+      ],
+      "correta": 0,
+      "explicacao": "Levante a roda e gire. Se fizer barulho de areia ou tiver folga lateral, troque urgente. Se travar, é chão."
+    },
+    {
+      "id": 193,
+      "categoria": "Tecnologia",
+      "pergunta": "Intercomunicador Bluetooth:",
+      "opcoes": [
+        "Distrai se usado para conversa fiada",
+        "Excelente para GPS e comunicação de segurança em grupo",
+        "Ambos estão certos"
+      ],
+      "correta": 2,
+      "explicacao": "É uma ferramenta ótima para avisar perigos ('buraco!', 'caminhão!'), mas fofoca demais tira a atenção."
+    },
+    {
+      "id": 194,
+      "categoria": "Segurança",
+      "pergunta": "Linhas de 'calafetação' (remendo de piche) na estrada:",
+      "opcoes": [
+        "Escorregam muito no calor e na chuva",
+        "Dão aderência",
+        "São decorativas"
+      ],
+      "correta": 0,
+      "explicacao": "Aquelas cobrinhas pretas no asfalto derretem no sol e viram sabão na chuva. Evite inclinar muito sobre elas."
+    },
+    {
+      "id": 195,
+      "categoria": "Mecânica",
+      "pergunta": "Filtro de óleo deve ser trocado:",
+      "opcoes": [
+        "Toda troca de óleo (recomendado) ou sim/não",
+        "Nunca",
+        "Só quando entupir"
+      ],
+      "correta": 0,
+      "explicacao": "Trocar óleo novo e deixar filtro velho é sujar o óleo novo na hora. O filtro é barato, o motor é caro."
+    },
+    {
+      "id": 196,
+      "categoria": "Pilotagem",
+      "pergunta": "Posição dos joelhos no tanque:",
+      "opcoes": [
+        "Abertos para ventilar",
+        "Apertando o tanque (Grip)",
+        "Um aberto e um fechado"
+      ],
+      "correta": 1,
+      "explicacao": "Aperte o tanque com as pernas! Isso tira o peso das mãos, alivia as costas e integra você à moto."
+    },
+    {
+      "id": 197,
+      "categoria": "Segurança",
+      "pergunta": "Carro na contramão ultrapassando e vindo na sua direção:",
+      "opcoes": [
+        "Pisca farol e buzina, mantenha a faixa",
+        "Vá para o acostamento/direita. A lei da física vence a lei de trânsito",
+        "Feche os olhos"
+      ],
+      "correta": 1,
+      "explicacao": "Não pague para ver. Mesmo que você esteja certo, você morre. Ceda espaço e sobreviva."
+    },
+    {
+      "id": 198,
+      "categoria": "Mecânica",
+      "pergunta": "Cuidados com Cardã (Transmissão):",
+      "opcoes": [
+        "Trocar óleo periodicamente (conforme manual)",
+        "Lubrificar com spray igual corrente",
+        "Não precisa de manutenção"
+      ],
+      "correta": 0,
+      "explicacao": "Cardã é limpo e dura muito, mas precisa trocar o óleo da engrenagem. Se quebrar, custa uma fortuna."
+    },
+    {
+      "id": 199,
+      "categoria": "Pilotagem",
+      "pergunta": "Olhar 'através' do para-brisa do carro à frente:",
+      "opcoes": [
+        "Curiosidade",
+        "Antecipação: ver se o trânsito parou na frente dele",
+        "Invasão de privacidade"
+      ],
+      "correta": 1,
+      "explicacao": "Não olhe para o para-choque. Olhe através dos vidros dos carros para ver as luzes de freio lá na frente."
+    },
+    {
+      "id": 200,
+      "categoria": "Segurança",
+      "pergunta": "Pilotagem Defensiva é:",
+      "opcoes": [
+        "Pilotar com medo",
+        "Reconhecer antecipadamente situações de perigo e evitá-las",
+        "Andar devagar"
+      ],
+      "correta": 1,
+      "explicacao": "É prever a 'fechada' antes dela acontecer. É assumir que ninguém te viu e pilotar preparado para o erro dos outros."
+    }
+  ],
+  "Avancado": [
+    {
+      "id": 281,
+      "categoria": "Física",
+      "pergunta": "O que é 'Momento Polar de Inércia'?",
+      "opcoes": [
+        "Resistência da moto em mudar de direção (tombar)",
+        "Força do motor",
+        "Peso estático"
+      ],
+      "correta": 0,
+      "explicacao": "Motos com massa centralizada (escape curto, motor compacto) mudam de direção fácil. Motos longas/pesadas nas pontas resistem à curva."
+    },
+    {
+      "id": 282,
+      "categoria": "Mecânica",
+      "pergunta": "Sonda Lambda (Sensor de O2) serve para:",
+      "opcoes": [
+        "Medir poluição apenas",
+        "Informar a ECU se a mistura está rica ou pobre para ajuste fino",
+        "Medir temperatura do óleo"
+      ],
+      "correta": 1,
+      "explicacao": "Ela lê o oxigênio no escape. Se sobrar O2, a mistura está pobre (injeta mais). Se faltar, está rica (injeta menos). Closed Loop."
+    },
+    {
+      "id": 283,
+      "categoria": "Pilotagem",
+      "pergunta": "Ponto de Frenagem (Brake Marker):",
+      "opcoes": [
+        "Frear quando sentir medo",
+        "Usar objetos fixos (placa, árvore, cone) para saber onde começar a frear",
+        "Frear quando ver a curva"
+      ],
+      "correta": 1,
+      "explicacao": "Consistência é tudo. Escolha uma marca física na pista. Passou por ela? Alicate no freio. Assim você melhora volta a volta."
+    },
+    {
+      "id": 284,
+      "categoria": "Tecnologia",
+      "pergunta": "Telemetria (Data Logger) mostra:",
+      "opcoes": [
+        "Onde você está perdendo tempo (acelerando tarde, freando cedo)",
+        "Previsão do tempo",
+        "Música"
+      ],
+      "correta": 0,
+      "explicacao": "Pilotos profissionais não acham, eles sabem. O gráfico mostra: 'aqui você abriu 100% do gás, ali só 80%'."
+    },
+    {
+      "id": 285,
+      "categoria": "Física",
+      "pergunta": "Aderência Pneu Frio vs Quente:",
+      "opcoes": [
+        "Igual",
+        "Quente a borracha fica mole e viscosa, aderindo às micro-imperfeições",
+        "Frio é melhor"
+      ],
+      "correta": 1,
+      "explicacao": "Histerese. O pneu quente se molda ao asfalto como um chiclete. Frio, ele é plástico duro e escorrega."
+    },
+    {
+      "id": 286,
+      "categoria": "Mecânica",
+      "pergunta": "Risco de usar água de torneira no radiador:",
+      "opcoes": [
+        "Nenhum",
+        "Eletrólise e Cavitação (corrosão interna e furos)",
+        "Melhora a refrigeração"
+      ],
+      "correta": 1,
+      "explicacao": "Os minerais da água reagem com o alumínio do motor, criando corrosão galvânica e comendo a bomba d'água."
+    },
+    {
+      "id": 287,
+      "categoria": "Pilotagem",
+      "pergunta": "Conceito de 'Slow in, Fast out':",
+      "opcoes": [
+        "Entrar lento para ajustar a linha e sair acelerando cedo (maior velocidade na reta)",
+        "Entrar chutado e sair devagar",
+        "Andar devagar sempre"
+      ],
+      "correta": 0,
+      "explicacao": "A reta seguinte é onde se ganha tempo. Se entrar rápido demais, você espalha na saída e demora para abrir o gás."
+    },
+    {
+      "id": 288,
+      "categoria": "Tecnologia",
+      "pergunta": "Suspensão: Ajuste de 'High Speed Compression':",
+      "opcoes": [
+        "Para altas velocidades da moto (km/h)",
+        "Para movimentos rápidos da suspensão (ex: quina de buraco, zebra alta)",
+        "Para curvas lentas"
+      ],
+      "correta": 1,
+      "explicacao": "Não confunda com velocidade da moto! É a velocidade da haste do amortecedor. Um impacto seco e rápido precisa de ajuste específico."
+    },
+    {
+      "id": 289,
+      "categoria": "Física",
+      "pergunta": "Arrasto Aerodinâmico (Drag):",
+      "opcoes": [
+        "Aumenta linearmente",
+        "Aumenta ao quadrado da velocidade (é a maior barreira p/ top speed)",
+        "Não afeta motos"
+      ],
+      "correta": 1,
+      "explicacao": "Passar de 100 para 110km/h é fácil. Passar de 290 para 300km/h exige cavalaria absurda só para empurrar o ar."
+    },
+    {
+      "id": 290,
+      "categoria": "Mecânica",
+      "pergunta": "Pneus Slick (de corrida):",
+      "opcoes": [
+        "Podem ser usados na rua",
+        "Precisam de cobertores térmicos e não funcionam na chuva/frio",
+        "Duram muito"
+      ],
+      "correta": 1,
+      "explicacao": "Sem sulcos, eles aquaplanam na hora. E se não estiverem a 80°C+, parecem sabão. Proibidos na rua."
+    },
+    {
+      "id": 291,
+      "categoria": "Pilotagem",
+      "pergunta": "Técnica de 'Blip' no acelerador (Punta-tacco):",
+      "opcoes": [
+        "Acelerar para fazer barulho",
+        "Pequena acelerada na redução para casar a rotação do motor com o câmbio",
+        "Desnecessário sempre"
+      ],
+      "correta": 1,
+      "explicacao": "Suaviza a entrada da marcha menor, evita trancos na transmissão e desestabilização do chassi na frenagem."
+    },
+    {
+      "id": 292,
+      "categoria": "Física",
+      "pergunta": "Oscilação Weave (Serpenteio) em alta velocidade:",
+      "opcoes": [
+        "Causada por roupa larga ou baú traseiro (aerodinâmica)",
+        "Pneu murcho",
+        "Ambas as anteriores"
+      ],
+      "correta": 2,
+      "explicacao": "Qualquer coisa que perturbe o fluxo de ar ou a rigidez do chassi pode fazer a moto 'rebolar' acima de 160km/h."
+    },
+    {
+      "id": 293,
+      "categoria": "Tecnologia",
+      "pergunta": "Shift Light:",
+      "opcoes": [
+        "Luz para iluminar o painel",
+        "Luz aviso de troca de marcha (RPM ideal)",
+        "Luz de freio"
+      ],
+      "correta": 1,
+      "explicacao": "Na pista, você não tem tempo de ler o ponteiro. A luz forte avisa na visão periférica: 'Troca agora!'."
+    },
+    {
+      "id": 294,
+      "categoria": "Mecânica",
+      "pergunta": "Diferença entre Potência e Torque:",
+      "opcoes": [
+        "Torque é a força da explosão (arrancada); Potência é a velocidade de trabalho (final)",
+        "São a mesma coisa",
+        "Potência é para subir parede"
+      ],
+      "correta": 0,
+      "explicacao": "Torque é o soco do Tyson. Potência é quantas vezes ele soca por minuto. Motores torcudos empurram forte desde baixo."
+    },
+    {
+      "id": 295,
+      "categoria": "Pilotagem",
+      "pergunta": "Visão focada no ápice muito cedo:",
+      "opcoes": [
+        "Ajuda a concentrar",
+        "Te faz entrar na curva antes da hora (Early Apex)",
+        "É a técnica correta"
+      ],
+      "correta": 1,
+      "explicacao": "Você vai para onde olha. Se olhar pro ápice muito antes, você 'corta caminho', entra cedo e espalha na saída. Tenha paciência."
+    },
+    {
+      "id": 296,
+      "categoria": "Mecânica",
+      "pergunta": "Mangueiras de freio Aeroquip (Malha de Aço):",
+      "opcoes": [
+        "Só estética",
+        "Não dilatam sob pressão, mantendo o freio firme e preciso",
+        "Enferrujam"
+      ],
+      "correta": 1,
+      "explicacao": "Mangueiras de borracha incham quando você aperta o freio forte, perdendo pressão. A malha de aço elimina essa perda."
+    },
+    {
+      "id": 297,
+      "categoria": "Física",
+      "pergunta": "Transferência de Carga Lateral:",
+      "opcoes": [
+        "Não existe em motos",
+        "Ocorre quando a moto inclina e a suspensão comprime",
+        "É quando o garupa mexe"
+      ],
+      "correta": 1,
+      "explicacao": "Gerenciar a carga nos pneus durante a transição (ficar em pé -> inclinar) é vital para não sobrecarregar a aderência de repente."
+    },
+    {
+      "id": 298,
+      "categoria": "Tecnologia",
+      "pergunta": "Diferencial do Capacete de Carbono:",
+      "opcoes": [
+        "Preço apenas",
+        "Extremamente leve, reduzindo força G no pescoço em desacelerações",
+        "É transparente"
+      ],
+      "correta": 1,
+      "explicacao": "Cada grama conta a 300km/h ou numa batida. Menos massa na cabeça significa menos inércia lesionando a coluna cervical."
+    },
+    {
+      "id": 299,
+      "categoria": "Pilotagem",
+      "pergunta": "Recovering (Salvar a moto no joelho/cotovelo):",
+      "opcoes": [
+        "Sorte pura",
+        "Técnica de usar o corpo como 'terceira roda' para aliviar peso dos pneus",
+        "Impossível"
+      ],
+      "correta": 1,
+      "explicacao": "Marquez faz isso. Quando a frente fecha, ele empurra o chão com o joelho/cotovelo para levantar a moto e retomar grip."
+    },
+    {
+      "id": 300,
+      "categoria": "Segurança",
+      "pergunta": "A regra dos 80% (Margem de Segurança):",
+      "opcoes": [
+        "Andar a 80km/h sempre",
+        "Nunca pilotar a 100% da sua habilidade na rua. Deixe 20% para o imprevisto",
+        "Frear só 80%"
+      ],
+      "correta": 1,
+      "explicacao": "Na pista, 100% é o limite. Na rua, se você estiver a 100% e aparecer um cachorro, não sobra habilidade para desviar. Guarde margem."
     }
   ]
-}
+      ]
