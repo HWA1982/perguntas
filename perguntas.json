@@ -3616,7 +3616,7 @@
       "correta": 1,
       "explicacao": "Marquez faz isso. Quando a frente fecha, ele empurra o chão com o joelho/cotovelo para levantar a moto e retomar grip."
     },
-    {
+   {
       "id": 300,
       "categoria": "Segurança",
       "pergunta": "A regra dos 80% (Margem de Segurança):",
@@ -3629,4 +3629,4 @@
       "explicacao": "Na pista, 100% é o limite. Na rua, se você estiver a 100% e aparecer um cachorro, não sobra habilidade para desviar. Guarde margem."
     }
   ]
-      ]
+}
